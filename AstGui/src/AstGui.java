@@ -270,24 +270,12 @@ public class AstGui extends javax.swing.JFrame {
         try {
             ANTLRStringStream input = new ANTLRStringStream(Input.getText());
             FinalProjectLexer lexer = new FinalProjectLexer(input);
-            // Create a stream of tokens pulled from the lexer
-            System.out.println("Starting Compilation 3");
             CommonTokenStream tokens = new CommonTokenStream(lexer);
-            // Create a parser attached to the token stream
             parser = new FinalProjectParser(tokens);
-            // Invoke the program rule in get return value
-            System.out.println("Starting Compilation 4");
             FinalProjectParser.start_return r = parser.start();
-
-            System.out.println("Starting Compilation 5");
             CommonTree t = (CommonTree) r.getTree();
-
-            System.out.println("Starting Compilation 6");
             DOTTreeGenerator gen = new DOTTreeGenerator();
-
-            System.out.println("Starting Compilation 7");
             StringTemplate st = gen.toDOT(t);
-            // System.out.println(st);
 
             // Formatting DOT file (optional: use stt instead of st) (Slows Compilation)
             String stt = st.toString();
