@@ -1,0 +1,3939 @@
+digraph {
+
+	ordering=out;
+	ranksep=.4;
+	bgcolor="lightgrey"; node [shape=box, fixedsize=false, fontsize=12, fontname="Helvetica-bold", fontcolor="blue"
+		width=.25, height=.25, color="black", fillcolor="white", style="filled, solid, bold"];
+	edge [arrowsize=.5, color="black", style="bold"]
+
+  n0 [label=""];
+  n1 [label="Class"];
+  n1 [label="Class"];
+  n2 [label="class"];
+  n3 [label="BinaryTree"];
+  n4 [label="{"];
+  n5 [label="MainFunction"];
+  n5 [label="MainFunction"];
+  n6 [label="public"];
+  n7 [label="static"];
+  n8 [label="void"];
+  n9 [label="main"];
+  n10 [label="("];
+  n11 [label="String"];
+  n12 [label="["];
+  n13 [label="]"];
+  n14 [label="a"];
+  n15 [label=")"];
+  n16 [label="{"];
+  n17 [label="Statement"];
+  n17 [label="Statement"];
+  n18 [label="System.out."];
+  n19 [label="println"];
+  n20 [label="("];
+  n21 [label="Expression"];
+  n21 [label="Expression"];
+  n22 [label="new"];
+  n23 [label="BT"];
+  n24 [label="("];
+  n25 [label=")"];
+  n26 [label="."];
+  n27 [label="Start"];
+  n28 [label="("];
+  n29 [label=")"];
+  n30 [label=")"];
+  n31 [label=";"];
+  n32 [label="}"];
+  n33 [label="}"];
+  n34 [label="Class"];
+  n34 [label="Class"];
+  n35 [label="class"];
+  n36 [label="BT"];
+  n37 [label="{"];
+  n38 [label="NormalFunction"];
+  n38 [label="NormalFunction"];
+  n39 [label="public"];
+  n40 [label="int"];
+  n41 [label="Start"];
+  n42 [label="("];
+  n43 [label=")"];
+  n44 [label="{"];
+  n45 [label="Variables"];
+  n45 [label="Variables"];
+  n46 [label="Tree"];
+  n47 [label="root"];
+  n48 [label=";"];
+  n49 [label="Variables"];
+  n49 [label="Variables"];
+  n50 [label="boolean"];
+  n51 [label="ntb"];
+  n52 [label=";"];
+  n53 [label="Variables"];
+  n53 [label="Variables"];
+  n54 [label="int"];
+  n55 [label="nti"];
+  n56 [label=";"];
+  n57 [label="Statement"];
+  n57 [label="Statement"];
+  n58 [label="root"];
+  n59 [label="="];
+  n60 [label="Expression"];
+  n60 [label="Expression"];
+  n61 [label="new"];
+  n62 [label="Tree"];
+  n63 [label="("];
+  n64 [label=")"];
+  n65 [label=";"];
+  n66 [label="Statement"];
+  n66 [label="Statement"];
+  n67 [label="ntb"];
+  n68 [label="="];
+  n69 [label="Expression"];
+  n69 [label="Expression"];
+  n70 [label="root"];
+  n71 [label="."];
+  n72 [label="Init"];
+  n73 [label="("];
+  n74 [label="Expression"];
+  n74 [label="Expression"];
+  n75 [label="16"];
+  n76 [label=")"];
+  n77 [label=";"];
+  n78 [label="Statement"];
+  n78 [label="Statement"];
+  n79 [label="ntb"];
+  n80 [label="="];
+  n81 [label="Expression"];
+  n81 [label="Expression"];
+  n82 [label="root"];
+  n83 [label="."];
+  n84 [label="Print"];
+  n85 [label="("];
+  n86 [label=")"];
+  n87 [label=";"];
+  n88 [label="Statement"];
+  n88 [label="Statement"];
+  n89 [label="System.out."];
+  n90 [label="println"];
+  n91 [label="("];
+  n92 [label="Expression"];
+  n92 [label="Expression"];
+  n93 [label="100000000"];
+  n94 [label=")"];
+  n95 [label=";"];
+  n96 [label="Statement"];
+  n96 [label="Statement"];
+  n97 [label="ntb"];
+  n98 [label="="];
+  n99 [label="Expression"];
+  n99 [label="Expression"];
+  n100 [label="root"];
+  n101 [label="."];
+  n102 [label="Insert"];
+  n103 [label="("];
+  n104 [label="Expression"];
+  n104 [label="Expression"];
+  n105 [label="8"];
+  n106 [label=")"];
+  n107 [label=";"];
+  n108 [label="Statement"];
+  n108 [label="Statement"];
+  n109 [label="ntb"];
+  n110 [label="="];
+  n111 [label="Expression"];
+  n111 [label="Expression"];
+  n112 [label="root"];
+  n113 [label="."];
+  n114 [label="Print"];
+  n115 [label="("];
+  n116 [label=")"];
+  n117 [label=";"];
+  n118 [label="Statement"];
+  n118 [label="Statement"];
+  n119 [label="ntb"];
+  n120 [label="="];
+  n121 [label="Expression"];
+  n121 [label="Expression"];
+  n122 [label="root"];
+  n123 [label="."];
+  n124 [label="Insert"];
+  n125 [label="("];
+  n126 [label="Expression"];
+  n126 [label="Expression"];
+  n127 [label="24"];
+  n128 [label=")"];
+  n129 [label=";"];
+  n130 [label="Statement"];
+  n130 [label="Statement"];
+  n131 [label="ntb"];
+  n132 [label="="];
+  n133 [label="Expression"];
+  n133 [label="Expression"];
+  n134 [label="root"];
+  n135 [label="."];
+  n136 [label="Insert"];
+  n137 [label="("];
+  n138 [label="Expression"];
+  n138 [label="Expression"];
+  n139 [label="4"];
+  n140 [label=")"];
+  n141 [label=";"];
+  n142 [label="Statement"];
+  n142 [label="Statement"];
+  n143 [label="ntb"];
+  n144 [label="="];
+  n145 [label="Expression"];
+  n145 [label="Expression"];
+  n146 [label="root"];
+  n147 [label="."];
+  n148 [label="Insert"];
+  n149 [label="("];
+  n150 [label="Expression"];
+  n150 [label="Expression"];
+  n151 [label="12"];
+  n152 [label=")"];
+  n153 [label=";"];
+  n154 [label="Statement"];
+  n154 [label="Statement"];
+  n155 [label="ntb"];
+  n156 [label="="];
+  n157 [label="Expression"];
+  n157 [label="Expression"];
+  n158 [label="root"];
+  n159 [label="."];
+  n160 [label="Insert"];
+  n161 [label="("];
+  n162 [label="Expression"];
+  n162 [label="Expression"];
+  n163 [label="20"];
+  n164 [label=")"];
+  n165 [label=";"];
+  n166 [label="Statement"];
+  n166 [label="Statement"];
+  n167 [label="ntb"];
+  n168 [label="="];
+  n169 [label="Expression"];
+  n169 [label="Expression"];
+  n170 [label="root"];
+  n171 [label="."];
+  n172 [label="Insert"];
+  n173 [label="("];
+  n174 [label="Expression"];
+  n174 [label="Expression"];
+  n175 [label="28"];
+  n176 [label=")"];
+  n177 [label=";"];
+  n178 [label="Statement"];
+  n178 [label="Statement"];
+  n179 [label="ntb"];
+  n180 [label="="];
+  n181 [label="Expression"];
+  n181 [label="Expression"];
+  n182 [label="root"];
+  n183 [label="."];
+  n184 [label="Insert"];
+  n185 [label="("];
+  n186 [label="Expression"];
+  n186 [label="Expression"];
+  n187 [label="14"];
+  n188 [label=")"];
+  n189 [label=";"];
+  n190 [label="Statement"];
+  n190 [label="Statement"];
+  n191 [label="ntb"];
+  n192 [label="="];
+  n193 [label="Expression"];
+  n193 [label="Expression"];
+  n194 [label="root"];
+  n195 [label="."];
+  n196 [label="Print"];
+  n197 [label="("];
+  n198 [label=")"];
+  n199 [label=";"];
+  n200 [label="Statement"];
+  n200 [label="Statement"];
+  n201 [label="System.out."];
+  n202 [label="println"];
+  n203 [label="("];
+  n204 [label="Expression"];
+  n204 [label="Expression"];
+  n205 [label="root"];
+  n206 [label="."];
+  n207 [label="Search"];
+  n208 [label="("];
+  n209 [label="Expression"];
+  n209 [label="Expression"];
+  n210 [label="24"];
+  n211 [label=")"];
+  n212 [label=")"];
+  n213 [label=";"];
+  n214 [label="Statement"];
+  n214 [label="Statement"];
+  n215 [label="System.out."];
+  n216 [label="println"];
+  n217 [label="("];
+  n218 [label="Expression"];
+  n218 [label="Expression"];
+  n219 [label="root"];
+  n220 [label="."];
+  n221 [label="Search"];
+  n222 [label="("];
+  n223 [label="Expression"];
+  n223 [label="Expression"];
+  n224 [label="12"];
+  n225 [label=")"];
+  n226 [label=")"];
+  n227 [label=";"];
+  n228 [label="Statement"];
+  n228 [label="Statement"];
+  n229 [label="System.out."];
+  n230 [label="println"];
+  n231 [label="("];
+  n232 [label="Expression"];
+  n232 [label="Expression"];
+  n233 [label="root"];
+  n234 [label="."];
+  n235 [label="Search"];
+  n236 [label="("];
+  n237 [label="Expression"];
+  n237 [label="Expression"];
+  n238 [label="16"];
+  n239 [label=")"];
+  n240 [label=")"];
+  n241 [label=";"];
+  n242 [label="Statement"];
+  n242 [label="Statement"];
+  n243 [label="System.out."];
+  n244 [label="println"];
+  n245 [label="("];
+  n246 [label="Expression"];
+  n246 [label="Expression"];
+  n247 [label="root"];
+  n248 [label="."];
+  n249 [label="Search"];
+  n250 [label="("];
+  n251 [label="Expression"];
+  n251 [label="Expression"];
+  n252 [label="50"];
+  n253 [label=")"];
+  n254 [label=")"];
+  n255 [label=";"];
+  n256 [label="Statement"];
+  n256 [label="Statement"];
+  n257 [label="System.out."];
+  n258 [label="println"];
+  n259 [label="("];
+  n260 [label="Expression"];
+  n260 [label="Expression"];
+  n261 [label="root"];
+  n262 [label="."];
+  n263 [label="Search"];
+  n264 [label="("];
+  n265 [label="Expression"];
+  n265 [label="Expression"];
+  n266 [label="12"];
+  n267 [label=")"];
+  n268 [label=")"];
+  n269 [label=";"];
+  n270 [label="Statement"];
+  n270 [label="Statement"];
+  n271 [label="ntb"];
+  n272 [label="="];
+  n273 [label="Expression"];
+  n273 [label="Expression"];
+  n274 [label="root"];
+  n275 [label="."];
+  n276 [label="Delete"];
+  n277 [label="("];
+  n278 [label="Expression"];
+  n278 [label="Expression"];
+  n279 [label="12"];
+  n280 [label=")"];
+  n281 [label=";"];
+  n282 [label="Statement"];
+  n282 [label="Statement"];
+  n283 [label="ntb"];
+  n284 [label="="];
+  n285 [label="Expression"];
+  n285 [label="Expression"];
+  n286 [label="root"];
+  n287 [label="."];
+  n288 [label="Print"];
+  n289 [label="("];
+  n290 [label=")"];
+  n291 [label=";"];
+  n292 [label="Statement"];
+  n292 [label="Statement"];
+  n293 [label="System.out."];
+  n294 [label="println"];
+  n295 [label="("];
+  n296 [label="Expression"];
+  n296 [label="Expression"];
+  n297 [label="root"];
+  n298 [label="."];
+  n299 [label="Search"];
+  n300 [label="("];
+  n301 [label="Expression"];
+  n301 [label="Expression"];
+  n302 [label="12"];
+  n303 [label=")"];
+  n304 [label=")"];
+  n305 [label=";"];
+  n306 [label="return"];
+  n307 [label="Expression"];
+  n307 [label="Expression"];
+  n308 [label="0"];
+  n309 [label=";"];
+  n310 [label="}"];
+  n311 [label="}"];
+  n312 [label="Class"];
+  n312 [label="Class"];
+  n313 [label="class"];
+  n314 [label="Tree"];
+  n315 [label="{"];
+  n316 [label="Variables"];
+  n316 [label="Variables"];
+  n317 [label="Tree"];
+  n318 [label="left"];
+  n319 [label=";"];
+  n320 [label="Variables"];
+  n320 [label="Variables"];
+  n321 [label="Tree"];
+  n322 [label="right"];
+  n323 [label=";"];
+  n324 [label="Variables"];
+  n324 [label="Variables"];
+  n325 [label="int"];
+  n326 [label="key"];
+  n327 [label=";"];
+  n328 [label="Variables"];
+  n328 [label="Variables"];
+  n329 [label="boolean"];
+  n330 [label="has_left"];
+  n331 [label=";"];
+  n332 [label="Variables"];
+  n332 [label="Variables"];
+  n333 [label="boolean"];
+  n334 [label="has_right"];
+  n335 [label=";"];
+  n336 [label="Variables"];
+  n336 [label="Variables"];
+  n337 [label="Tree"];
+  n338 [label="my_null"];
+  n339 [label=";"];
+  n340 [label="NormalFunction"];
+  n340 [label="NormalFunction"];
+  n341 [label="public"];
+  n342 [label="boolean"];
+  n343 [label="Init"];
+  n344 [label="("];
+  n345 [label="int"];
+  n346 [label="v_key"];
+  n347 [label=")"];
+  n348 [label="{"];
+  n349 [label="Statement"];
+  n349 [label="Statement"];
+  n350 [label="key"];
+  n351 [label="="];
+  n352 [label="Expression"];
+  n352 [label="Expression"];
+  n353 [label="v_key"];
+  n354 [label=";"];
+  n355 [label="Statement"];
+  n355 [label="Statement"];
+  n356 [label="has_left"];
+  n357 [label="="];
+  n358 [label="Expression"];
+  n358 [label="Expression"];
+  n359 [label="false"];
+  n360 [label=";"];
+  n361 [label="Statement"];
+  n361 [label="Statement"];
+  n362 [label="has_right"];
+  n363 [label="="];
+  n364 [label="Expression"];
+  n364 [label="Expression"];
+  n365 [label="false"];
+  n366 [label=";"];
+  n367 [label="return"];
+  n368 [label="Expression"];
+  n368 [label="Expression"];
+  n369 [label="true"];
+  n370 [label=";"];
+  n371 [label="}"];
+  n372 [label="NormalFunction"];
+  n372 [label="NormalFunction"];
+  n373 [label="public"];
+  n374 [label="boolean"];
+  n375 [label="SetRight"];
+  n376 [label="("];
+  n377 [label="Tree"];
+  n378 [label="rn"];
+  n379 [label=")"];
+  n380 [label="{"];
+  n381 [label="Statement"];
+  n381 [label="Statement"];
+  n382 [label="right"];
+  n383 [label="="];
+  n384 [label="Expression"];
+  n384 [label="Expression"];
+  n385 [label="rn"];
+  n386 [label=";"];
+  n387 [label="return"];
+  n388 [label="Expression"];
+  n388 [label="Expression"];
+  n389 [label="true"];
+  n390 [label=";"];
+  n391 [label="}"];
+  n392 [label="NormalFunction"];
+  n392 [label="NormalFunction"];
+  n393 [label="public"];
+  n394 [label="boolean"];
+  n395 [label="SetLeft"];
+  n396 [label="("];
+  n397 [label="Tree"];
+  n398 [label="ln"];
+  n399 [label=")"];
+  n400 [label="{"];
+  n401 [label="Statement"];
+  n401 [label="Statement"];
+  n402 [label="left"];
+  n403 [label="="];
+  n404 [label="Expression"];
+  n404 [label="Expression"];
+  n405 [label="ln"];
+  n406 [label=";"];
+  n407 [label="return"];
+  n408 [label="Expression"];
+  n408 [label="Expression"];
+  n409 [label="true"];
+  n410 [label=";"];
+  n411 [label="}"];
+  n412 [label="NormalFunction"];
+  n412 [label="NormalFunction"];
+  n413 [label="public"];
+  n414 [label="Tree"];
+  n415 [label="GetRight"];
+  n416 [label="("];
+  n417 [label=")"];
+  n418 [label="{"];
+  n419 [label="return"];
+  n420 [label="Expression"];
+  n420 [label="Expression"];
+  n421 [label="right"];
+  n422 [label=";"];
+  n423 [label="}"];
+  n424 [label="NormalFunction"];
+  n424 [label="NormalFunction"];
+  n425 [label="public"];
+  n426 [label="Tree"];
+  n427 [label="GetLeft"];
+  n428 [label="("];
+  n429 [label=")"];
+  n430 [label="{"];
+  n431 [label="return"];
+  n432 [label="Expression"];
+  n432 [label="Expression"];
+  n433 [label="left"];
+  n434 [label=";"];
+  n435 [label="}"];
+  n436 [label="NormalFunction"];
+  n436 [label="NormalFunction"];
+  n437 [label="public"];
+  n438 [label="int"];
+  n439 [label="GetKey"];
+  n440 [label="("];
+  n441 [label=")"];
+  n442 [label="{"];
+  n443 [label="return"];
+  n444 [label="Expression"];
+  n444 [label="Expression"];
+  n445 [label="key"];
+  n446 [label=";"];
+  n447 [label="}"];
+  n448 [label="NormalFunction"];
+  n448 [label="NormalFunction"];
+  n449 [label="public"];
+  n450 [label="boolean"];
+  n451 [label="SetKey"];
+  n452 [label="("];
+  n453 [label="int"];
+  n454 [label="v_key"];
+  n455 [label=")"];
+  n456 [label="{"];
+  n457 [label="Statement"];
+  n457 [label="Statement"];
+  n458 [label="key"];
+  n459 [label="="];
+  n460 [label="Expression"];
+  n460 [label="Expression"];
+  n461 [label="v_key"];
+  n462 [label=";"];
+  n463 [label="return"];
+  n464 [label="Expression"];
+  n464 [label="Expression"];
+  n465 [label="true"];
+  n466 [label=";"];
+  n467 [label="}"];
+  n468 [label="NormalFunction"];
+  n468 [label="NormalFunction"];
+  n469 [label="public"];
+  n470 [label="boolean"];
+  n471 [label="GetHas_Right"];
+  n472 [label="("];
+  n473 [label=")"];
+  n474 [label="{"];
+  n475 [label="return"];
+  n476 [label="Expression"];
+  n476 [label="Expression"];
+  n477 [label="has_right"];
+  n478 [label=";"];
+  n479 [label="}"];
+  n480 [label="NormalFunction"];
+  n480 [label="NormalFunction"];
+  n481 [label="public"];
+  n482 [label="boolean"];
+  n483 [label="GetHas_Left"];
+  n484 [label="("];
+  n485 [label=")"];
+  n486 [label="{"];
+  n487 [label="return"];
+  n488 [label="Expression"];
+  n488 [label="Expression"];
+  n489 [label="has_left"];
+  n490 [label=";"];
+  n491 [label="}"];
+  n492 [label="NormalFunction"];
+  n492 [label="NormalFunction"];
+  n493 [label="public"];
+  n494 [label="boolean"];
+  n495 [label="SetHas_Left"];
+  n496 [label="("];
+  n497 [label="boolean"];
+  n498 [label="val"];
+  n499 [label=")"];
+  n500 [label="{"];
+  n501 [label="Statement"];
+  n501 [label="Statement"];
+  n502 [label="has_left"];
+  n503 [label="="];
+  n504 [label="Expression"];
+  n504 [label="Expression"];
+  n505 [label="val"];
+  n506 [label=";"];
+  n507 [label="return"];
+  n508 [label="Expression"];
+  n508 [label="Expression"];
+  n509 [label="true"];
+  n510 [label=";"];
+  n511 [label="}"];
+  n512 [label="NormalFunction"];
+  n512 [label="NormalFunction"];
+  n513 [label="public"];
+  n514 [label="boolean"];
+  n515 [label="SetHas_Right"];
+  n516 [label="("];
+  n517 [label="boolean"];
+  n518 [label="val"];
+  n519 [label=")"];
+  n520 [label="{"];
+  n521 [label="Statement"];
+  n521 [label="Statement"];
+  n522 [label="has_right"];
+  n523 [label="="];
+  n524 [label="Expression"];
+  n524 [label="Expression"];
+  n525 [label="val"];
+  n526 [label=";"];
+  n527 [label="return"];
+  n528 [label="Expression"];
+  n528 [label="Expression"];
+  n529 [label="true"];
+  n530 [label=";"];
+  n531 [label="}"];
+  n532 [label="NormalFunction"];
+  n532 [label="NormalFunction"];
+  n533 [label="public"];
+  n534 [label="boolean"];
+  n535 [label="Compare"];
+  n536 [label="("];
+  n537 [label="int"];
+  n538 [label="num1"];
+  n539 [label=","];
+  n540 [label="int"];
+  n541 [label="num2"];
+  n542 [label=")"];
+  n543 [label="{"];
+  n544 [label="Variables"];
+  n544 [label="Variables"];
+  n545 [label="boolean"];
+  n546 [label="ntb"];
+  n547 [label=";"];
+  n548 [label="Variables"];
+  n548 [label="Variables"];
+  n549 [label="int"];
+  n550 [label="nti"];
+  n551 [label=";"];
+  n552 [label="Statement"];
+  n552 [label="Statement"];
+  n553 [label="ntb"];
+  n554 [label="="];
+  n555 [label="Expression"];
+  n555 [label="Expression"];
+  n556 [label="false"];
+  n557 [label=";"];
+  n558 [label="Statement"];
+  n558 [label="Statement"];
+  n559 [label="nti"];
+  n560 [label="="];
+  n561 [label="Expression"];
+  n561 [label="Expression"];
+  n562 [label="num2"];
+  n563 [label="+"];
+  n564 [label="1"];
+  n565 [label=";"];
+  n566 [label="IfStatement"];
+  n566 [label="IfStatement"];
+  n567 [label="if"];
+  n568 [label="("];
+  n569 [label="Expression"];
+  n569 [label="Expression"];
+  n570 [label="num1"];
+  n571 [label="<"];
+  n572 [label="num2"];
+  n573 [label=")"];
+  n574 [label="Statement"];
+  n574 [label="Statement"];
+  n575 [label="ntb"];
+  n576 [label="="];
+  n577 [label="Expression"];
+  n577 [label="Expression"];
+  n578 [label="false"];
+  n579 [label=";"];
+  n580 [label="else"];
+  n581 [label="IfStatement"];
+  n581 [label="IfStatement"];
+  n582 [label="if"];
+  n583 [label="("];
+  n584 [label="Expression"];
+  n584 [label="Expression"];
+  n585 [label="!"];
+  n586 [label="Expression"];
+  n586 [label="Expression"];
+  n587 [label="("];
+  n588 [label="Expression"];
+  n588 [label="Expression"];
+  n589 [label="num1"];
+  n590 [label="<"];
+  n591 [label="nti"];
+  n592 [label=")"];
+  n593 [label=")"];
+  n594 [label="Statement"];
+  n594 [label="Statement"];
+  n595 [label="ntb"];
+  n596 [label="="];
+  n597 [label="Expression"];
+  n597 [label="Expression"];
+  n598 [label="false"];
+  n599 [label=";"];
+  n600 [label="else"];
+  n601 [label="Statement"];
+  n601 [label="Statement"];
+  n602 [label="ntb"];
+  n603 [label="="];
+  n604 [label="Expression"];
+  n604 [label="Expression"];
+  n605 [label="true"];
+  n606 [label=";"];
+  n607 [label="return"];
+  n608 [label="Expression"];
+  n608 [label="Expression"];
+  n609 [label="ntb"];
+  n610 [label=";"];
+  n611 [label="}"];
+  n612 [label="NormalFunction"];
+  n612 [label="NormalFunction"];
+  n613 [label="public"];
+  n614 [label="boolean"];
+  n615 [label="Insert"];
+  n616 [label="("];
+  n617 [label="int"];
+  n618 [label="v_key"];
+  n619 [label=")"];
+  n620 [label="{"];
+  n621 [label="Variables"];
+  n621 [label="Variables"];
+  n622 [label="Tree"];
+  n623 [label="new_node"];
+  n624 [label=";"];
+  n625 [label="Variables"];
+  n625 [label="Variables"];
+  n626 [label="boolean"];
+  n627 [label="ntb"];
+  n628 [label=";"];
+  n629 [label="Variables"];
+  n629 [label="Variables"];
+  n630 [label="boolean"];
+  n631 [label="cont"];
+  n632 [label=";"];
+  n633 [label="Variables"];
+  n633 [label="Variables"];
+  n634 [label="int"];
+  n635 [label="key_aux"];
+  n636 [label=";"];
+  n637 [label="Variables"];
+  n637 [label="Variables"];
+  n638 [label="Tree"];
+  n639 [label="current_node"];
+  n640 [label=";"];
+  n641 [label="Statement"];
+  n641 [label="Statement"];
+  n642 [label="new_node"];
+  n643 [label="="];
+  n644 [label="Expression"];
+  n644 [label="Expression"];
+  n645 [label="new"];
+  n646 [label="Tree"];
+  n647 [label="("];
+  n648 [label=")"];
+  n649 [label=";"];
+  n650 [label="Statement"];
+  n650 [label="Statement"];
+  n651 [label="ntb"];
+  n652 [label="="];
+  n653 [label="Expression"];
+  n653 [label="Expression"];
+  n654 [label="new_node"];
+  n655 [label="."];
+  n656 [label="Init"];
+  n657 [label="("];
+  n658 [label="Expression"];
+  n658 [label="Expression"];
+  n659 [label="v_key"];
+  n660 [label=")"];
+  n661 [label=";"];
+  n662 [label="Statement"];
+  n662 [label="Statement"];
+  n663 [label="current_node"];
+  n664 [label="="];
+  n665 [label="Expression"];
+  n665 [label="Expression"];
+  n666 [label="this"];
+  n667 [label=";"];
+  n668 [label="Statement"];
+  n668 [label="Statement"];
+  n669 [label="cont"];
+  n670 [label="="];
+  n671 [label="Expression"];
+  n671 [label="Expression"];
+  n672 [label="true"];
+  n673 [label=";"];
+  n674 [label="WhileStatement"];
+  n674 [label="WhileStatement"];
+  n675 [label="while"];
+  n676 [label="("];
+  n677 [label="Expression"];
+  n677 [label="Expression"];
+  n678 [label="cont"];
+  n679 [label=")"];
+  n680 [label="Statement"];
+  n680 [label="Statement"];
+  n681 [label="{"];
+  n682 [label="Statement"];
+  n682 [label="Statement"];
+  n683 [label="key_aux"];
+  n684 [label="="];
+  n685 [label="Expression"];
+  n685 [label="Expression"];
+  n686 [label="current_node"];
+  n687 [label="."];
+  n688 [label="GetKey"];
+  n689 [label="("];
+  n690 [label=")"];
+  n691 [label=";"];
+  n692 [label="IfStatement"];
+  n692 [label="IfStatement"];
+  n693 [label="if"];
+  n694 [label="("];
+  n695 [label="Expression"];
+  n695 [label="Expression"];
+  n696 [label="v_key"];
+  n697 [label="<"];
+  n698 [label="key_aux"];
+  n699 [label=")"];
+  n700 [label="Statement"];
+  n700 [label="Statement"];
+  n701 [label="{"];
+  n702 [label="IfStatement"];
+  n702 [label="IfStatement"];
+  n703 [label="if"];
+  n704 [label="("];
+  n705 [label="Expression"];
+  n705 [label="Expression"];
+  n706 [label="current_node"];
+  n707 [label="."];
+  n708 [label="GetHas_Left"];
+  n709 [label="("];
+  n710 [label=")"];
+  n711 [label=")"];
+  n712 [label="Statement"];
+  n712 [label="Statement"];
+  n713 [label="current_node"];
+  n714 [label="="];
+  n715 [label="Expression"];
+  n715 [label="Expression"];
+  n716 [label="current_node"];
+  n717 [label="."];
+  n718 [label="GetLeft"];
+  n719 [label="("];
+  n720 [label=")"];
+  n721 [label=";"];
+  n722 [label="else"];
+  n723 [label="Statement"];
+  n723 [label="Statement"];
+  n724 [label="{"];
+  n725 [label="Statement"];
+  n725 [label="Statement"];
+  n726 [label="cont"];
+  n727 [label="="];
+  n728 [label="Expression"];
+  n728 [label="Expression"];
+  n729 [label="false"];
+  n730 [label=";"];
+  n731 [label="Statement"];
+  n731 [label="Statement"];
+  n732 [label="ntb"];
+  n733 [label="="];
+  n734 [label="Expression"];
+  n734 [label="Expression"];
+  n735 [label="current_node"];
+  n736 [label="."];
+  n737 [label="SetHas_Left"];
+  n738 [label="("];
+  n739 [label="Expression"];
+  n739 [label="Expression"];
+  n740 [label="true"];
+  n741 [label=")"];
+  n742 [label=";"];
+  n743 [label="Statement"];
+  n743 [label="Statement"];
+  n744 [label="ntb"];
+  n745 [label="="];
+  n746 [label="Expression"];
+  n746 [label="Expression"];
+  n747 [label="current_node"];
+  n748 [label="."];
+  n749 [label="SetLeft"];
+  n750 [label="("];
+  n751 [label="Expression"];
+  n751 [label="Expression"];
+  n752 [label="new_node"];
+  n753 [label=")"];
+  n754 [label=";"];
+  n755 [label="}"];
+  n756 [label="}"];
+  n757 [label="else"];
+  n758 [label="Statement"];
+  n758 [label="Statement"];
+  n759 [label="{"];
+  n760 [label="IfStatement"];
+  n760 [label="IfStatement"];
+  n761 [label="if"];
+  n762 [label="("];
+  n763 [label="Expression"];
+  n763 [label="Expression"];
+  n764 [label="current_node"];
+  n765 [label="."];
+  n766 [label="GetHas_Right"];
+  n767 [label="("];
+  n768 [label=")"];
+  n769 [label=")"];
+  n770 [label="Statement"];
+  n770 [label="Statement"];
+  n771 [label="current_node"];
+  n772 [label="="];
+  n773 [label="Expression"];
+  n773 [label="Expression"];
+  n774 [label="current_node"];
+  n775 [label="."];
+  n776 [label="GetRight"];
+  n777 [label="("];
+  n778 [label=")"];
+  n779 [label=";"];
+  n780 [label="else"];
+  n781 [label="Statement"];
+  n781 [label="Statement"];
+  n782 [label="{"];
+  n783 [label="Statement"];
+  n783 [label="Statement"];
+  n784 [label="cont"];
+  n785 [label="="];
+  n786 [label="Expression"];
+  n786 [label="Expression"];
+  n787 [label="false"];
+  n788 [label=";"];
+  n789 [label="Statement"];
+  n789 [label="Statement"];
+  n790 [label="ntb"];
+  n791 [label="="];
+  n792 [label="Expression"];
+  n792 [label="Expression"];
+  n793 [label="current_node"];
+  n794 [label="."];
+  n795 [label="SetHas_Right"];
+  n796 [label="("];
+  n797 [label="Expression"];
+  n797 [label="Expression"];
+  n798 [label="true"];
+  n799 [label=")"];
+  n800 [label=";"];
+  n801 [label="Statement"];
+  n801 [label="Statement"];
+  n802 [label="ntb"];
+  n803 [label="="];
+  n804 [label="Expression"];
+  n804 [label="Expression"];
+  n805 [label="current_node"];
+  n806 [label="."];
+  n807 [label="SetRight"];
+  n808 [label="("];
+  n809 [label="Expression"];
+  n809 [label="Expression"];
+  n810 [label="new_node"];
+  n811 [label=")"];
+  n812 [label=";"];
+  n813 [label="}"];
+  n814 [label="}"];
+  n815 [label="}"];
+  n816 [label="return"];
+  n817 [label="Expression"];
+  n817 [label="Expression"];
+  n818 [label="true"];
+  n819 [label=";"];
+  n820 [label="}"];
+  n821 [label="NormalFunction"];
+  n821 [label="NormalFunction"];
+  n822 [label="public"];
+  n823 [label="boolean"];
+  n824 [label="Delete"];
+  n825 [label="("];
+  n826 [label="int"];
+  n827 [label="v_key"];
+  n828 [label=")"];
+  n829 [label="{"];
+  n830 [label="Variables"];
+  n830 [label="Variables"];
+  n831 [label="Tree"];
+  n832 [label="current_node"];
+  n833 [label=";"];
+  n834 [label="Variables"];
+  n834 [label="Variables"];
+  n835 [label="Tree"];
+  n836 [label="parent_node"];
+  n837 [label=";"];
+  n838 [label="Variables"];
+  n838 [label="Variables"];
+  n839 [label="boolean"];
+  n840 [label="cont"];
+  n841 [label=";"];
+  n842 [label="Variables"];
+  n842 [label="Variables"];
+  n843 [label="boolean"];
+  n844 [label="found"];
+  n845 [label=";"];
+  n846 [label="Variables"];
+  n846 [label="Variables"];
+  n847 [label="boolean"];
+  n848 [label="is_root"];
+  n849 [label=";"];
+  n850 [label="Variables"];
+  n850 [label="Variables"];
+  n851 [label="int"];
+  n852 [label="key_aux"];
+  n853 [label=";"];
+  n854 [label="Variables"];
+  n854 [label="Variables"];
+  n855 [label="boolean"];
+  n856 [label="ntb"];
+  n857 [label=";"];
+  n858 [label="Statement"];
+  n858 [label="Statement"];
+  n859 [label="current_node"];
+  n860 [label="="];
+  n861 [label="Expression"];
+  n861 [label="Expression"];
+  n862 [label="this"];
+  n863 [label=";"];
+  n864 [label="Statement"];
+  n864 [label="Statement"];
+  n865 [label="parent_node"];
+  n866 [label="="];
+  n867 [label="Expression"];
+  n867 [label="Expression"];
+  n868 [label="this"];
+  n869 [label=";"];
+  n870 [label="Statement"];
+  n870 [label="Statement"];
+  n871 [label="cont"];
+  n872 [label="="];
+  n873 [label="Expression"];
+  n873 [label="Expression"];
+  n874 [label="true"];
+  n875 [label=";"];
+  n876 [label="Statement"];
+  n876 [label="Statement"];
+  n877 [label="found"];
+  n878 [label="="];
+  n879 [label="Expression"];
+  n879 [label="Expression"];
+  n880 [label="false"];
+  n881 [label=";"];
+  n882 [label="Statement"];
+  n882 [label="Statement"];
+  n883 [label="is_root"];
+  n884 [label="="];
+  n885 [label="Expression"];
+  n885 [label="Expression"];
+  n886 [label="true"];
+  n887 [label=";"];
+  n888 [label="WhileStatement"];
+  n888 [label="WhileStatement"];
+  n889 [label="while"];
+  n890 [label="("];
+  n891 [label="Expression"];
+  n891 [label="Expression"];
+  n892 [label="cont"];
+  n893 [label=")"];
+  n894 [label="Statement"];
+  n894 [label="Statement"];
+  n895 [label="{"];
+  n896 [label="Statement"];
+  n896 [label="Statement"];
+  n897 [label="key_aux"];
+  n898 [label="="];
+  n899 [label="Expression"];
+  n899 [label="Expression"];
+  n900 [label="current_node"];
+  n901 [label="."];
+  n902 [label="GetKey"];
+  n903 [label="("];
+  n904 [label=")"];
+  n905 [label=";"];
+  n906 [label="IfStatement"];
+  n906 [label="IfStatement"];
+  n907 [label="if"];
+  n908 [label="("];
+  n909 [label="Expression"];
+  n909 [label="Expression"];
+  n910 [label="v_key"];
+  n911 [label="<"];
+  n912 [label="key_aux"];
+  n913 [label=")"];
+  n914 [label="IfStatement"];
+  n914 [label="IfStatement"];
+  n915 [label="if"];
+  n916 [label="("];
+  n917 [label="Expression"];
+  n917 [label="Expression"];
+  n918 [label="current_node"];
+  n919 [label="."];
+  n920 [label="GetHas_Left"];
+  n921 [label="("];
+  n922 [label=")"];
+  n923 [label=")"];
+  n924 [label="Statement"];
+  n924 [label="Statement"];
+  n925 [label="{"];
+  n926 [label="Statement"];
+  n926 [label="Statement"];
+  n927 [label="parent_node"];
+  n928 [label="="];
+  n929 [label="Expression"];
+  n929 [label="Expression"];
+  n930 [label="current_node"];
+  n931 [label=";"];
+  n932 [label="Statement"];
+  n932 [label="Statement"];
+  n933 [label="current_node"];
+  n934 [label="="];
+  n935 [label="Expression"];
+  n935 [label="Expression"];
+  n936 [label="current_node"];
+  n937 [label="."];
+  n938 [label="GetLeft"];
+  n939 [label="("];
+  n940 [label=")"];
+  n941 [label=";"];
+  n942 [label="}"];
+  n943 [label="else"];
+  n944 [label="Statement"];
+  n944 [label="Statement"];
+  n945 [label="cont"];
+  n946 [label="="];
+  n947 [label="Expression"];
+  n947 [label="Expression"];
+  n948 [label="false"];
+  n949 [label=";"];
+  n950 [label="else"];
+  n951 [label="IfStatement"];
+  n951 [label="IfStatement"];
+  n952 [label="if"];
+  n953 [label="("];
+  n954 [label="Expression"];
+  n954 [label="Expression"];
+  n955 [label="key_aux"];
+  n956 [label="<"];
+  n957 [label="v_key"];
+  n958 [label=")"];
+  n959 [label="IfStatement"];
+  n959 [label="IfStatement"];
+  n960 [label="if"];
+  n961 [label="("];
+  n962 [label="Expression"];
+  n962 [label="Expression"];
+  n963 [label="current_node"];
+  n964 [label="."];
+  n965 [label="GetHas_Right"];
+  n966 [label="("];
+  n967 [label=")"];
+  n968 [label=")"];
+  n969 [label="Statement"];
+  n969 [label="Statement"];
+  n970 [label="{"];
+  n971 [label="Statement"];
+  n971 [label="Statement"];
+  n972 [label="parent_node"];
+  n973 [label="="];
+  n974 [label="Expression"];
+  n974 [label="Expression"];
+  n975 [label="current_node"];
+  n976 [label=";"];
+  n977 [label="Statement"];
+  n977 [label="Statement"];
+  n978 [label="current_node"];
+  n979 [label="="];
+  n980 [label="Expression"];
+  n980 [label="Expression"];
+  n981 [label="current_node"];
+  n982 [label="."];
+  n983 [label="GetRight"];
+  n984 [label="("];
+  n985 [label=")"];
+  n986 [label=";"];
+  n987 [label="}"];
+  n988 [label="else"];
+  n989 [label="Statement"];
+  n989 [label="Statement"];
+  n990 [label="cont"];
+  n991 [label="="];
+  n992 [label="Expression"];
+  n992 [label="Expression"];
+  n993 [label="false"];
+  n994 [label=";"];
+  n995 [label="else"];
+  n996 [label="Statement"];
+  n996 [label="Statement"];
+  n997 [label="{"];
+  n998 [label="IfStatement"];
+  n998 [label="IfStatement"];
+  n999 [label="if"];
+  n1000 [label="("];
+  n1001 [label="Expression"];
+  n1001 [label="Expression"];
+  n1002 [label="is_root"];
+  n1003 [label=")"];
+  n1004 [label="IfStatement"];
+  n1004 [label="IfStatement"];
+  n1005 [label="if"];
+  n1006 [label="("];
+  n1007 [label="Expression"];
+  n1007 [label="Expression"];
+  n1008 [label="("];
+  n1009 [label="Expression"];
+  n1009 [label="Expression"];
+  n1010 [label="!"];
+  n1011 [label="Expression"];
+  n1011 [label="Expression"];
+  n1012 [label="current_node"];
+  n1013 [label="."];
+  n1014 [label="GetHas_Right"];
+  n1015 [label="("];
+  n1016 [label=")"];
+  n1017 [label=")"];
+  n1018 [label="&&"];
+  n1019 [label="("];
+  n1020 [label="Expression"];
+  n1020 [label="Expression"];
+  n1021 [label="!"];
+  n1022 [label="Expression"];
+  n1022 [label="Expression"];
+  n1023 [label="current_node"];
+  n1024 [label="."];
+  n1025 [label="GetHas_Left"];
+  n1026 [label="("];
+  n1027 [label=")"];
+  n1028 [label=")"];
+  n1029 [label=")"];
+  n1030 [label="Statement"];
+  n1030 [label="Statement"];
+  n1031 [label="ntb"];
+  n1032 [label="="];
+  n1033 [label="Expression"];
+  n1033 [label="Expression"];
+  n1034 [label="true"];
+  n1035 [label=";"];
+  n1036 [label="else"];
+  n1037 [label="Statement"];
+  n1037 [label="Statement"];
+  n1038 [label="ntb"];
+  n1039 [label="="];
+  n1040 [label="Expression"];
+  n1040 [label="Expression"];
+  n1041 [label="this"];
+  n1042 [label="."];
+  n1043 [label="Remove"];
+  n1044 [label="("];
+  n1045 [label="Expression"];
+  n1045 [label="Expression"];
+  n1046 [label="parent_node"];
+  n1047 [label=","];
+  n1048 [label="Expression"];
+  n1048 [label="Expression"];
+  n1049 [label="current_node"];
+  n1050 [label=")"];
+  n1051 [label=";"];
+  n1052 [label="else"];
+  n1053 [label="Statement"];
+  n1053 [label="Statement"];
+  n1054 [label="ntb"];
+  n1055 [label="="];
+  n1056 [label="Expression"];
+  n1056 [label="Expression"];
+  n1057 [label="this"];
+  n1058 [label="."];
+  n1059 [label="Remove"];
+  n1060 [label="("];
+  n1061 [label="Expression"];
+  n1061 [label="Expression"];
+  n1062 [label="parent_node"];
+  n1063 [label=","];
+  n1064 [label="Expression"];
+  n1064 [label="Expression"];
+  n1065 [label="current_node"];
+  n1066 [label=")"];
+  n1067 [label=";"];
+  n1068 [label="Statement"];
+  n1068 [label="Statement"];
+  n1069 [label="found"];
+  n1070 [label="="];
+  n1071 [label="Expression"];
+  n1071 [label="Expression"];
+  n1072 [label="true"];
+  n1073 [label=";"];
+  n1074 [label="Statement"];
+  n1074 [label="Statement"];
+  n1075 [label="cont"];
+  n1076 [label="="];
+  n1077 [label="Expression"];
+  n1077 [label="Expression"];
+  n1078 [label="false"];
+  n1079 [label=";"];
+  n1080 [label="}"];
+  n1081 [label="Statement"];
+  n1081 [label="Statement"];
+  n1082 [label="is_root"];
+  n1083 [label="="];
+  n1084 [label="Expression"];
+  n1084 [label="Expression"];
+  n1085 [label="false"];
+  n1086 [label=";"];
+  n1087 [label="}"];
+  n1088 [label="return"];
+  n1089 [label="Expression"];
+  n1089 [label="Expression"];
+  n1090 [label="found"];
+  n1091 [label=";"];
+  n1092 [label="}"];
+  n1093 [label="NormalFunction"];
+  n1093 [label="NormalFunction"];
+  n1094 [label="public"];
+  n1095 [label="boolean"];
+  n1096 [label="Remove"];
+  n1097 [label="("];
+  n1098 [label="Tree"];
+  n1099 [label="p_node"];
+  n1100 [label=","];
+  n1101 [label="Tree"];
+  n1102 [label="c_node"];
+  n1103 [label=")"];
+  n1104 [label="{"];
+  n1105 [label="Variables"];
+  n1105 [label="Variables"];
+  n1106 [label="boolean"];
+  n1107 [label="ntb"];
+  n1108 [label=";"];
+  n1109 [label="Variables"];
+  n1109 [label="Variables"];
+  n1110 [label="int"];
+  n1111 [label="auxkey1"];
+  n1112 [label=";"];
+  n1113 [label="Variables"];
+  n1113 [label="Variables"];
+  n1114 [label="int"];
+  n1115 [label="auxkey2"];
+  n1116 [label=";"];
+  n1117 [label="IfStatement"];
+  n1117 [label="IfStatement"];
+  n1118 [label="if"];
+  n1119 [label="("];
+  n1120 [label="Expression"];
+  n1120 [label="Expression"];
+  n1121 [label="c_node"];
+  n1122 [label="."];
+  n1123 [label="GetHas_Left"];
+  n1124 [label="("];
+  n1125 [label=")"];
+  n1126 [label=")"];
+  n1127 [label="Statement"];
+  n1127 [label="Statement"];
+  n1128 [label="ntb"];
+  n1129 [label="="];
+  n1130 [label="Expression"];
+  n1130 [label="Expression"];
+  n1131 [label="this"];
+  n1132 [label="."];
+  n1133 [label="RemoveLeft"];
+  n1134 [label="("];
+  n1135 [label="Expression"];
+  n1135 [label="Expression"];
+  n1136 [label="p_node"];
+  n1137 [label=","];
+  n1138 [label="Expression"];
+  n1138 [label="Expression"];
+  n1139 [label="c_node"];
+  n1140 [label=")"];
+  n1141 [label=";"];
+  n1142 [label="else"];
+  n1143 [label="IfStatement"];
+  n1143 [label="IfStatement"];
+  n1144 [label="if"];
+  n1145 [label="("];
+  n1146 [label="Expression"];
+  n1146 [label="Expression"];
+  n1147 [label="c_node"];
+  n1148 [label="."];
+  n1149 [label="GetHas_Right"];
+  n1150 [label="("];
+  n1151 [label=")"];
+  n1152 [label=")"];
+  n1153 [label="Statement"];
+  n1153 [label="Statement"];
+  n1154 [label="ntb"];
+  n1155 [label="="];
+  n1156 [label="Expression"];
+  n1156 [label="Expression"];
+  n1157 [label="this"];
+  n1158 [label="."];
+  n1159 [label="RemoveRight"];
+  n1160 [label="("];
+  n1161 [label="Expression"];
+  n1161 [label="Expression"];
+  n1162 [label="p_node"];
+  n1163 [label=","];
+  n1164 [label="Expression"];
+  n1164 [label="Expression"];
+  n1165 [label="c_node"];
+  n1166 [label=")"];
+  n1167 [label=";"];
+  n1168 [label="else"];
+  n1169 [label="Statement"];
+  n1169 [label="Statement"];
+  n1170 [label="{"];
+  n1171 [label="Statement"];
+  n1171 [label="Statement"];
+  n1172 [label="auxkey1"];
+  n1173 [label="="];
+  n1174 [label="Expression"];
+  n1174 [label="Expression"];
+  n1175 [label="c_node"];
+  n1176 [label="."];
+  n1177 [label="GetKey"];
+  n1178 [label="("];
+  n1179 [label=")"];
+  n1180 [label=";"];
+  n1181 [label="Statement"];
+  n1181 [label="Statement"];
+  n1182 [label="auxkey2"];
+  n1183 [label="="];
+  n1184 [label="Expression"];
+  n1184 [label="Expression"];
+  n1185 [label="("];
+  n1186 [label="Expression"];
+  n1186 [label="Expression"];
+  n1187 [label="p_node"];
+  n1188 [label="."];
+  n1189 [label="GetLeft"];
+  n1190 [label="("];
+  n1191 [label=")"];
+  n1192 [label=")"];
+  n1193 [label="."];
+  n1194 [label="GetKey"];
+  n1195 [label="("];
+  n1196 [label=")"];
+  n1197 [label=";"];
+  n1198 [label="IfStatement"];
+  n1198 [label="IfStatement"];
+  n1199 [label="if"];
+  n1200 [label="("];
+  n1201 [label="Expression"];
+  n1201 [label="Expression"];
+  n1202 [label="this"];
+  n1203 [label="."];
+  n1204 [label="Compare"];
+  n1205 [label="("];
+  n1206 [label="Expression"];
+  n1206 [label="Expression"];
+  n1207 [label="auxkey1"];
+  n1208 [label=","];
+  n1209 [label="Expression"];
+  n1209 [label="Expression"];
+  n1210 [label="auxkey2"];
+  n1211 [label=")"];
+  n1212 [label=")"];
+  n1213 [label="Statement"];
+  n1213 [label="Statement"];
+  n1214 [label="{"];
+  n1215 [label="Statement"];
+  n1215 [label="Statement"];
+  n1216 [label="ntb"];
+  n1217 [label="="];
+  n1218 [label="Expression"];
+  n1218 [label="Expression"];
+  n1219 [label="p_node"];
+  n1220 [label="."];
+  n1221 [label="SetLeft"];
+  n1222 [label="("];
+  n1223 [label="Expression"];
+  n1223 [label="Expression"];
+  n1224 [label="my_null"];
+  n1225 [label=")"];
+  n1226 [label=";"];
+  n1227 [label="Statement"];
+  n1227 [label="Statement"];
+  n1228 [label="ntb"];
+  n1229 [label="="];
+  n1230 [label="Expression"];
+  n1230 [label="Expression"];
+  n1231 [label="p_node"];
+  n1232 [label="."];
+  n1233 [label="SetHas_Left"];
+  n1234 [label="("];
+  n1235 [label="Expression"];
+  n1235 [label="Expression"];
+  n1236 [label="false"];
+  n1237 [label=")"];
+  n1238 [label=";"];
+  n1239 [label="}"];
+  n1240 [label="else"];
+  n1241 [label="Statement"];
+  n1241 [label="Statement"];
+  n1242 [label="{"];
+  n1243 [label="Statement"];
+  n1243 [label="Statement"];
+  n1244 [label="ntb"];
+  n1245 [label="="];
+  n1246 [label="Expression"];
+  n1246 [label="Expression"];
+  n1247 [label="p_node"];
+  n1248 [label="."];
+  n1249 [label="SetRight"];
+  n1250 [label="("];
+  n1251 [label="Expression"];
+  n1251 [label="Expression"];
+  n1252 [label="my_null"];
+  n1253 [label=")"];
+  n1254 [label=";"];
+  n1255 [label="Statement"];
+  n1255 [label="Statement"];
+  n1256 [label="ntb"];
+  n1257 [label="="];
+  n1258 [label="Expression"];
+  n1258 [label="Expression"];
+  n1259 [label="p_node"];
+  n1260 [label="."];
+  n1261 [label="SetHas_Right"];
+  n1262 [label="("];
+  n1263 [label="Expression"];
+  n1263 [label="Expression"];
+  n1264 [label="false"];
+  n1265 [label=")"];
+  n1266 [label=";"];
+  n1267 [label="}"];
+  n1268 [label="}"];
+  n1269 [label="return"];
+  n1270 [label="Expression"];
+  n1270 [label="Expression"];
+  n1271 [label="true"];
+  n1272 [label=";"];
+  n1273 [label="}"];
+  n1274 [label="NormalFunction"];
+  n1274 [label="NormalFunction"];
+  n1275 [label="public"];
+  n1276 [label="boolean"];
+  n1277 [label="RemoveRight"];
+  n1278 [label="("];
+  n1279 [label="Tree"];
+  n1280 [label="p_node"];
+  n1281 [label=","];
+  n1282 [label="Tree"];
+  n1283 [label="c_node"];
+  n1284 [label=")"];
+  n1285 [label="{"];
+  n1286 [label="Variables"];
+  n1286 [label="Variables"];
+  n1287 [label="boolean"];
+  n1288 [label="ntb"];
+  n1289 [label=";"];
+  n1290 [label="WhileStatement"];
+  n1290 [label="WhileStatement"];
+  n1291 [label="while"];
+  n1292 [label="("];
+  n1293 [label="Expression"];
+  n1293 [label="Expression"];
+  n1294 [label="c_node"];
+  n1295 [label="."];
+  n1296 [label="GetHas_Right"];
+  n1297 [label="("];
+  n1298 [label=")"];
+  n1299 [label=")"];
+  n1300 [label="Statement"];
+  n1300 [label="Statement"];
+  n1301 [label="{"];
+  n1302 [label="Statement"];
+  n1302 [label="Statement"];
+  n1303 [label="ntb"];
+  n1304 [label="="];
+  n1305 [label="Expression"];
+  n1305 [label="Expression"];
+  n1306 [label="c_node"];
+  n1307 [label="."];
+  n1308 [label="SetKey"];
+  n1309 [label="("];
+  n1310 [label="Expression"];
+  n1310 [label="Expression"];
+  n1311 [label="("];
+  n1312 [label="Expression"];
+  n1312 [label="Expression"];
+  n1313 [label="c_node"];
+  n1314 [label="."];
+  n1315 [label="GetRight"];
+  n1316 [label="("];
+  n1317 [label=")"];
+  n1318 [label=")"];
+  n1319 [label="."];
+  n1320 [label="GetKey"];
+  n1321 [label="("];
+  n1322 [label=")"];
+  n1323 [label=")"];
+  n1324 [label=";"];
+  n1325 [label="Statement"];
+  n1325 [label="Statement"];
+  n1326 [label="p_node"];
+  n1327 [label="="];
+  n1328 [label="Expression"];
+  n1328 [label="Expression"];
+  n1329 [label="c_node"];
+  n1330 [label=";"];
+  n1331 [label="Statement"];
+  n1331 [label="Statement"];
+  n1332 [label="c_node"];
+  n1333 [label="="];
+  n1334 [label="Expression"];
+  n1334 [label="Expression"];
+  n1335 [label="c_node"];
+  n1336 [label="."];
+  n1337 [label="GetRight"];
+  n1338 [label="("];
+  n1339 [label=")"];
+  n1340 [label=";"];
+  n1341 [label="}"];
+  n1342 [label="Statement"];
+  n1342 [label="Statement"];
+  n1343 [label="ntb"];
+  n1344 [label="="];
+  n1345 [label="Expression"];
+  n1345 [label="Expression"];
+  n1346 [label="p_node"];
+  n1347 [label="."];
+  n1348 [label="SetRight"];
+  n1349 [label="("];
+  n1350 [label="Expression"];
+  n1350 [label="Expression"];
+  n1351 [label="my_null"];
+  n1352 [label=")"];
+  n1353 [label=";"];
+  n1354 [label="Statement"];
+  n1354 [label="Statement"];
+  n1355 [label="ntb"];
+  n1356 [label="="];
+  n1357 [label="Expression"];
+  n1357 [label="Expression"];
+  n1358 [label="p_node"];
+  n1359 [label="."];
+  n1360 [label="SetHas_Right"];
+  n1361 [label="("];
+  n1362 [label="Expression"];
+  n1362 [label="Expression"];
+  n1363 [label="false"];
+  n1364 [label=")"];
+  n1365 [label=";"];
+  n1366 [label="return"];
+  n1367 [label="Expression"];
+  n1367 [label="Expression"];
+  n1368 [label="true"];
+  n1369 [label=";"];
+  n1370 [label="}"];
+  n1371 [label="NormalFunction"];
+  n1371 [label="NormalFunction"];
+  n1372 [label="public"];
+  n1373 [label="boolean"];
+  n1374 [label="RemoveLeft"];
+  n1375 [label="("];
+  n1376 [label="Tree"];
+  n1377 [label="p_node"];
+  n1378 [label=","];
+  n1379 [label="Tree"];
+  n1380 [label="c_node"];
+  n1381 [label=")"];
+  n1382 [label="{"];
+  n1383 [label="Variables"];
+  n1383 [label="Variables"];
+  n1384 [label="boolean"];
+  n1385 [label="ntb"];
+  n1386 [label=";"];
+  n1387 [label="WhileStatement"];
+  n1387 [label="WhileStatement"];
+  n1388 [label="while"];
+  n1389 [label="("];
+  n1390 [label="Expression"];
+  n1390 [label="Expression"];
+  n1391 [label="c_node"];
+  n1392 [label="."];
+  n1393 [label="GetHas_Left"];
+  n1394 [label="("];
+  n1395 [label=")"];
+  n1396 [label=")"];
+  n1397 [label="Statement"];
+  n1397 [label="Statement"];
+  n1398 [label="{"];
+  n1399 [label="Statement"];
+  n1399 [label="Statement"];
+  n1400 [label="ntb"];
+  n1401 [label="="];
+  n1402 [label="Expression"];
+  n1402 [label="Expression"];
+  n1403 [label="c_node"];
+  n1404 [label="."];
+  n1405 [label="SetKey"];
+  n1406 [label="("];
+  n1407 [label="Expression"];
+  n1407 [label="Expression"];
+  n1408 [label="("];
+  n1409 [label="Expression"];
+  n1409 [label="Expression"];
+  n1410 [label="c_node"];
+  n1411 [label="."];
+  n1412 [label="GetLeft"];
+  n1413 [label="("];
+  n1414 [label=")"];
+  n1415 [label=")"];
+  n1416 [label="."];
+  n1417 [label="GetKey"];
+  n1418 [label="("];
+  n1419 [label=")"];
+  n1420 [label=")"];
+  n1421 [label=";"];
+  n1422 [label="Statement"];
+  n1422 [label="Statement"];
+  n1423 [label="p_node"];
+  n1424 [label="="];
+  n1425 [label="Expression"];
+  n1425 [label="Expression"];
+  n1426 [label="c_node"];
+  n1427 [label=";"];
+  n1428 [label="Statement"];
+  n1428 [label="Statement"];
+  n1429 [label="c_node"];
+  n1430 [label="="];
+  n1431 [label="Expression"];
+  n1431 [label="Expression"];
+  n1432 [label="c_node"];
+  n1433 [label="."];
+  n1434 [label="GetLeft"];
+  n1435 [label="("];
+  n1436 [label=")"];
+  n1437 [label=";"];
+  n1438 [label="}"];
+  n1439 [label="Statement"];
+  n1439 [label="Statement"];
+  n1440 [label="ntb"];
+  n1441 [label="="];
+  n1442 [label="Expression"];
+  n1442 [label="Expression"];
+  n1443 [label="p_node"];
+  n1444 [label="."];
+  n1445 [label="SetLeft"];
+  n1446 [label="("];
+  n1447 [label="Expression"];
+  n1447 [label="Expression"];
+  n1448 [label="my_null"];
+  n1449 [label=")"];
+  n1450 [label=";"];
+  n1451 [label="Statement"];
+  n1451 [label="Statement"];
+  n1452 [label="ntb"];
+  n1453 [label="="];
+  n1454 [label="Expression"];
+  n1454 [label="Expression"];
+  n1455 [label="p_node"];
+  n1456 [label="."];
+  n1457 [label="SetHas_Left"];
+  n1458 [label="("];
+  n1459 [label="Expression"];
+  n1459 [label="Expression"];
+  n1460 [label="false"];
+  n1461 [label=")"];
+  n1462 [label=";"];
+  n1463 [label="return"];
+  n1464 [label="Expression"];
+  n1464 [label="Expression"];
+  n1465 [label="true"];
+  n1466 [label=";"];
+  n1467 [label="}"];
+  n1468 [label="NormalFunction"];
+  n1468 [label="NormalFunction"];
+  n1469 [label="public"];
+  n1470 [label="int"];
+  n1471 [label="Search"];
+  n1472 [label="("];
+  n1473 [label="int"];
+  n1474 [label="v_key"];
+  n1475 [label=")"];
+  n1476 [label="{"];
+  n1477 [label="Variables"];
+  n1477 [label="Variables"];
+  n1478 [label="boolean"];
+  n1479 [label="cont"];
+  n1480 [label=";"];
+  n1481 [label="Variables"];
+  n1481 [label="Variables"];
+  n1482 [label="int"];
+  n1483 [label="ifound"];
+  n1484 [label=";"];
+  n1485 [label="Variables"];
+  n1485 [label="Variables"];
+  n1486 [label="Tree"];
+  n1487 [label="current_node"];
+  n1488 [label=";"];
+  n1489 [label="Variables"];
+  n1489 [label="Variables"];
+  n1490 [label="int"];
+  n1491 [label="key_aux"];
+  n1492 [label=";"];
+  n1493 [label="Statement"];
+  n1493 [label="Statement"];
+  n1494 [label="current_node"];
+  n1495 [label="="];
+  n1496 [label="Expression"];
+  n1496 [label="Expression"];
+  n1497 [label="this"];
+  n1498 [label=";"];
+  n1499 [label="Statement"];
+  n1499 [label="Statement"];
+  n1500 [label="cont"];
+  n1501 [label="="];
+  n1502 [label="Expression"];
+  n1502 [label="Expression"];
+  n1503 [label="true"];
+  n1504 [label=";"];
+  n1505 [label="Statement"];
+  n1505 [label="Statement"];
+  n1506 [label="ifound"];
+  n1507 [label="="];
+  n1508 [label="Expression"];
+  n1508 [label="Expression"];
+  n1509 [label="0"];
+  n1510 [label=";"];
+  n1511 [label="WhileStatement"];
+  n1511 [label="WhileStatement"];
+  n1512 [label="while"];
+  n1513 [label="("];
+  n1514 [label="Expression"];
+  n1514 [label="Expression"];
+  n1515 [label="cont"];
+  n1516 [label=")"];
+  n1517 [label="Statement"];
+  n1517 [label="Statement"];
+  n1518 [label="{"];
+  n1519 [label="Statement"];
+  n1519 [label="Statement"];
+  n1520 [label="key_aux"];
+  n1521 [label="="];
+  n1522 [label="Expression"];
+  n1522 [label="Expression"];
+  n1523 [label="current_node"];
+  n1524 [label="."];
+  n1525 [label="GetKey"];
+  n1526 [label="("];
+  n1527 [label=")"];
+  n1528 [label=";"];
+  n1529 [label="IfStatement"];
+  n1529 [label="IfStatement"];
+  n1530 [label="if"];
+  n1531 [label="("];
+  n1532 [label="Expression"];
+  n1532 [label="Expression"];
+  n1533 [label="v_key"];
+  n1534 [label="<"];
+  n1535 [label="key_aux"];
+  n1536 [label=")"];
+  n1537 [label="IfStatement"];
+  n1537 [label="IfStatement"];
+  n1538 [label="if"];
+  n1539 [label="("];
+  n1540 [label="Expression"];
+  n1540 [label="Expression"];
+  n1541 [label="current_node"];
+  n1542 [label="."];
+  n1543 [label="GetHas_Left"];
+  n1544 [label="("];
+  n1545 [label=")"];
+  n1546 [label=")"];
+  n1547 [label="Statement"];
+  n1547 [label="Statement"];
+  n1548 [label="current_node"];
+  n1549 [label="="];
+  n1550 [label="Expression"];
+  n1550 [label="Expression"];
+  n1551 [label="current_node"];
+  n1552 [label="."];
+  n1553 [label="GetLeft"];
+  n1554 [label="("];
+  n1555 [label=")"];
+  n1556 [label=";"];
+  n1557 [label="else"];
+  n1558 [label="Statement"];
+  n1558 [label="Statement"];
+  n1559 [label="cont"];
+  n1560 [label="="];
+  n1561 [label="Expression"];
+  n1561 [label="Expression"];
+  n1562 [label="false"];
+  n1563 [label=";"];
+  n1564 [label="else"];
+  n1565 [label="IfStatement"];
+  n1565 [label="IfStatement"];
+  n1566 [label="if"];
+  n1567 [label="("];
+  n1568 [label="Expression"];
+  n1568 [label="Expression"];
+  n1569 [label="key_aux"];
+  n1570 [label="<"];
+  n1571 [label="v_key"];
+  n1572 [label=")"];
+  n1573 [label="IfStatement"];
+  n1573 [label="IfStatement"];
+  n1574 [label="if"];
+  n1575 [label="("];
+  n1576 [label="Expression"];
+  n1576 [label="Expression"];
+  n1577 [label="current_node"];
+  n1578 [label="."];
+  n1579 [label="GetHas_Right"];
+  n1580 [label="("];
+  n1581 [label=")"];
+  n1582 [label=")"];
+  n1583 [label="Statement"];
+  n1583 [label="Statement"];
+  n1584 [label="current_node"];
+  n1585 [label="="];
+  n1586 [label="Expression"];
+  n1586 [label="Expression"];
+  n1587 [label="current_node"];
+  n1588 [label="."];
+  n1589 [label="GetRight"];
+  n1590 [label="("];
+  n1591 [label=")"];
+  n1592 [label=";"];
+  n1593 [label="else"];
+  n1594 [label="Statement"];
+  n1594 [label="Statement"];
+  n1595 [label="cont"];
+  n1596 [label="="];
+  n1597 [label="Expression"];
+  n1597 [label="Expression"];
+  n1598 [label="false"];
+  n1599 [label=";"];
+  n1600 [label="else"];
+  n1601 [label="Statement"];
+  n1601 [label="Statement"];
+  n1602 [label="{"];
+  n1603 [label="Statement"];
+  n1603 [label="Statement"];
+  n1604 [label="ifound"];
+  n1605 [label="="];
+  n1606 [label="Expression"];
+  n1606 [label="Expression"];
+  n1607 [label="1"];
+  n1608 [label=";"];
+  n1609 [label="Statement"];
+  n1609 [label="Statement"];
+  n1610 [label="cont"];
+  n1611 [label="="];
+  n1612 [label="Expression"];
+  n1612 [label="Expression"];
+  n1613 [label="false"];
+  n1614 [label=";"];
+  n1615 [label="}"];
+  n1616 [label="}"];
+  n1617 [label="return"];
+  n1618 [label="Expression"];
+  n1618 [label="Expression"];
+  n1619 [label="ifound"];
+  n1620 [label=";"];
+  n1621 [label="}"];
+  n1622 [label="NormalFunction"];
+  n1622 [label="NormalFunction"];
+  n1623 [label="public"];
+  n1624 [label="boolean"];
+  n1625 [label="Print"];
+  n1626 [label="("];
+  n1627 [label=")"];
+  n1628 [label="{"];
+  n1629 [label="Variables"];
+  n1629 [label="Variables"];
+  n1630 [label="Tree"];
+  n1631 [label="current_node"];
+  n1632 [label=";"];
+  n1633 [label="Variables"];
+  n1633 [label="Variables"];
+  n1634 [label="boolean"];
+  n1635 [label="ntb"];
+  n1636 [label=";"];
+  n1637 [label="Statement"];
+  n1637 [label="Statement"];
+  n1638 [label="current_node"];
+  n1639 [label="="];
+  n1640 [label="Expression"];
+  n1640 [label="Expression"];
+  n1641 [label="this"];
+  n1642 [label=";"];
+  n1643 [label="Statement"];
+  n1643 [label="Statement"];
+  n1644 [label="ntb"];
+  n1645 [label="="];
+  n1646 [label="Expression"];
+  n1646 [label="Expression"];
+  n1647 [label="this"];
+  n1648 [label="."];
+  n1649 [label="RecPrint"];
+  n1650 [label="("];
+  n1651 [label="Expression"];
+  n1651 [label="Expression"];
+  n1652 [label="current_node"];
+  n1653 [label=")"];
+  n1654 [label=";"];
+  n1655 [label="return"];
+  n1656 [label="Expression"];
+  n1656 [label="Expression"];
+  n1657 [label="true"];
+  n1658 [label=";"];
+  n1659 [label="}"];
+  n1660 [label="NormalFunction"];
+  n1660 [label="NormalFunction"];
+  n1661 [label="public"];
+  n1662 [label="boolean"];
+  n1663 [label="RecPrint"];
+  n1664 [label="("];
+  n1665 [label="Tree"];
+  n1666 [label="node"];
+  n1667 [label=")"];
+  n1668 [label="{"];
+  n1669 [label="Variables"];
+  n1669 [label="Variables"];
+  n1670 [label="boolean"];
+  n1671 [label="ntb"];
+  n1672 [label=";"];
+  n1673 [label="IfStatement"];
+  n1673 [label="IfStatement"];
+  n1674 [label="if"];
+  n1675 [label="("];
+  n1676 [label="Expression"];
+  n1676 [label="Expression"];
+  n1677 [label="node"];
+  n1678 [label="."];
+  n1679 [label="GetHas_Left"];
+  n1680 [label="("];
+  n1681 [label=")"];
+  n1682 [label=")"];
+  n1683 [label="Statement"];
+  n1683 [label="Statement"];
+  n1684 [label="{"];
+  n1685 [label="Statement"];
+  n1685 [label="Statement"];
+  n1686 [label="ntb"];
+  n1687 [label="="];
+  n1688 [label="Expression"];
+  n1688 [label="Expression"];
+  n1689 [label="this"];
+  n1690 [label="."];
+  n1691 [label="RecPrint"];
+  n1692 [label="("];
+  n1693 [label="Expression"];
+  n1693 [label="Expression"];
+  n1694 [label="node"];
+  n1695 [label="."];
+  n1696 [label="GetLeft"];
+  n1697 [label="("];
+  n1698 [label=")"];
+  n1699 [label=")"];
+  n1700 [label=";"];
+  n1701 [label="}"];
+  n1702 [label="else"];
+  n1703 [label="Statement"];
+  n1703 [label="Statement"];
+  n1704 [label="ntb"];
+  n1705 [label="="];
+  n1706 [label="Expression"];
+  n1706 [label="Expression"];
+  n1707 [label="true"];
+  n1708 [label=";"];
+  n1709 [label="Statement"];
+  n1709 [label="Statement"];
+  n1710 [label="System.out."];
+  n1711 [label="println"];
+  n1712 [label="("];
+  n1713 [label="Expression"];
+  n1713 [label="Expression"];
+  n1714 [label="node"];
+  n1715 [label="."];
+  n1716 [label="GetKey"];
+  n1717 [label="("];
+  n1718 [label=")"];
+  n1719 [label=")"];
+  n1720 [label=";"];
+  n1721 [label="IfStatement"];
+  n1721 [label="IfStatement"];
+  n1722 [label="if"];
+  n1723 [label="("];
+  n1724 [label="Expression"];
+  n1724 [label="Expression"];
+  n1725 [label="node"];
+  n1726 [label="."];
+  n1727 [label="GetHas_Right"];
+  n1728 [label="("];
+  n1729 [label=")"];
+  n1730 [label=")"];
+  n1731 [label="Statement"];
+  n1731 [label="Statement"];
+  n1732 [label="{"];
+  n1733 [label="Statement"];
+  n1733 [label="Statement"];
+  n1734 [label="ntb"];
+  n1735 [label="="];
+  n1736 [label="Expression"];
+  n1736 [label="Expression"];
+  n1737 [label="this"];
+  n1738 [label="."];
+  n1739 [label="RecPrint"];
+  n1740 [label="("];
+  n1741 [label="Expression"];
+  n1741 [label="Expression"];
+  n1742 [label="node"];
+  n1743 [label="."];
+  n1744 [label="GetRight"];
+  n1745 [label="("];
+  n1746 [label=")"];
+  n1747 [label=")"];
+  n1748 [label=";"];
+  n1749 [label="}"];
+  n1750 [label="else"];
+  n1751 [label="Statement"];
+  n1751 [label="Statement"];
+  n1752 [label="ntb"];
+  n1753 [label="="];
+  n1754 [label="Expression"];
+  n1754 [label="Expression"];
+  n1755 [label="true"];
+  n1756 [label=";"];
+  n1757 [label="return"];
+  n1758 [label="Expression"];
+  n1758 [label="Expression"];
+  n1759 [label="true"];
+  n1760 [label=";"];
+  n1761 [label="}"];
+  n1762 [label="}"];
+
+  n0 -> n1 // "" -> "Class"
+  n1 -> n2 // "Class" -> "class"
+  n1 -> n3 // "Class" -> "BinaryTree"
+  n1 -> n4 // "Class" -> "{"
+  n1 -> n5 // "Class" -> "MainFunction"
+  n5 -> n6 // "MainFunction" -> "public"
+  n5 -> n7 // "MainFunction" -> "static"
+  n5 -> n8 // "MainFunction" -> "void"
+  n5 -> n9 // "MainFunction" -> "main"
+  n5 -> n10 // "MainFunction" -> "("
+  n5 -> n11 // "MainFunction" -> "String"
+  n5 -> n12 // "MainFunction" -> "["
+  n5 -> n13 // "MainFunction" -> "]"
+  n5 -> n14 // "MainFunction" -> "a"
+  n5 -> n15 // "MainFunction" -> ")"
+  n5 -> n16 // "MainFunction" -> "{"
+  n5 -> n17 // "MainFunction" -> "Statement"
+  n17 -> n18 // "Statement" -> "System.out."
+  n17 -> n19 // "Statement" -> "println"
+  n17 -> n20 // "Statement" -> "("
+  n17 -> n21 // "Statement" -> "Expression"
+  n21 -> n22 // "Expression" -> "new"
+  n21 -> n23 // "Expression" -> "BT"
+  n21 -> n24 // "Expression" -> "("
+  n21 -> n25 // "Expression" -> ")"
+  n21 -> n26 // "Expression" -> "."
+  n21 -> n27 // "Expression" -> "Start"
+  n21 -> n28 // "Expression" -> "("
+  n21 -> n29 // "Expression" -> ")"
+  n17 -> n30 // "Statement" -> ")"
+  n17 -> n31 // "Statement" -> ";"
+  n5 -> n32 // "MainFunction" -> "}"
+  n1 -> n33 // "Class" -> "}"
+  n0 -> n34 // "" -> "Class"
+  n34 -> n35 // "Class" -> "class"
+  n34 -> n36 // "Class" -> "BT"
+  n34 -> n37 // "Class" -> "{"
+  n34 -> n38 // "Class" -> "NormalFunction"
+  n38 -> n39 // "NormalFunction" -> "public"
+  n38 -> n40 // "NormalFunction" -> "int"
+  n38 -> n41 // "NormalFunction" -> "Start"
+  n38 -> n42 // "NormalFunction" -> "("
+  n38 -> n43 // "NormalFunction" -> ")"
+  n38 -> n44 // "NormalFunction" -> "{"
+  n38 -> n45 // "NormalFunction" -> "Variables"
+  n45 -> n46 // "Variables" -> "Tree"
+  n45 -> n47 // "Variables" -> "root"
+  n45 -> n48 // "Variables" -> ";"
+  n38 -> n49 // "NormalFunction" -> "Variables"
+  n49 -> n50 // "Variables" -> "boolean"
+  n49 -> n51 // "Variables" -> "ntb"
+  n49 -> n52 // "Variables" -> ";"
+  n38 -> n53 // "NormalFunction" -> "Variables"
+  n53 -> n54 // "Variables" -> "int"
+  n53 -> n55 // "Variables" -> "nti"
+  n53 -> n56 // "Variables" -> ";"
+  n38 -> n57 // "NormalFunction" -> "Statement"
+  n57 -> n58 // "Statement" -> "root"
+  n57 -> n59 // "Statement" -> "="
+  n57 -> n60 // "Statement" -> "Expression"
+  n60 -> n61 // "Expression" -> "new"
+  n60 -> n62 // "Expression" -> "Tree"
+  n60 -> n63 // "Expression" -> "("
+  n60 -> n64 // "Expression" -> ")"
+  n57 -> n65 // "Statement" -> ";"
+  n38 -> n66 // "NormalFunction" -> "Statement"
+  n66 -> n67 // "Statement" -> "ntb"
+  n66 -> n68 // "Statement" -> "="
+  n66 -> n69 // "Statement" -> "Expression"
+  n69 -> n70 // "Expression" -> "root"
+  n69 -> n71 // "Expression" -> "."
+  n69 -> n72 // "Expression" -> "Init"
+  n69 -> n73 // "Expression" -> "("
+  n69 -> n74 // "Expression" -> "Expression"
+  n74 -> n75 // "Expression" -> "16"
+  n69 -> n76 // "Expression" -> ")"
+  n66 -> n77 // "Statement" -> ";"
+  n38 -> n78 // "NormalFunction" -> "Statement"
+  n78 -> n79 // "Statement" -> "ntb"
+  n78 -> n80 // "Statement" -> "="
+  n78 -> n81 // "Statement" -> "Expression"
+  n81 -> n82 // "Expression" -> "root"
+  n81 -> n83 // "Expression" -> "."
+  n81 -> n84 // "Expression" -> "Print"
+  n81 -> n85 // "Expression" -> "("
+  n81 -> n86 // "Expression" -> ")"
+  n78 -> n87 // "Statement" -> ";"
+  n38 -> n88 // "NormalFunction" -> "Statement"
+  n88 -> n89 // "Statement" -> "System.out."
+  n88 -> n90 // "Statement" -> "println"
+  n88 -> n91 // "Statement" -> "("
+  n88 -> n92 // "Statement" -> "Expression"
+  n92 -> n93 // "Expression" -> "100000000"
+  n88 -> n94 // "Statement" -> ")"
+  n88 -> n95 // "Statement" -> ";"
+  n38 -> n96 // "NormalFunction" -> "Statement"
+  n96 -> n97 // "Statement" -> "ntb"
+  n96 -> n98 // "Statement" -> "="
+  n96 -> n99 // "Statement" -> "Expression"
+  n99 -> n100 // "Expression" -> "root"
+  n99 -> n101 // "Expression" -> "."
+  n99 -> n102 // "Expression" -> "Insert"
+  n99 -> n103 // "Expression" -> "("
+  n99 -> n104 // "Expression" -> "Expression"
+  n104 -> n105 // "Expression" -> "8"
+  n99 -> n106 // "Expression" -> ")"
+  n96 -> n107 // "Statement" -> ";"
+  n38 -> n108 // "NormalFunction" -> "Statement"
+  n108 -> n109 // "Statement" -> "ntb"
+  n108 -> n110 // "Statement" -> "="
+  n108 -> n111 // "Statement" -> "Expression"
+  n111 -> n112 // "Expression" -> "root"
+  n111 -> n113 // "Expression" -> "."
+  n111 -> n114 // "Expression" -> "Print"
+  n111 -> n115 // "Expression" -> "("
+  n111 -> n116 // "Expression" -> ")"
+  n108 -> n117 // "Statement" -> ";"
+  n38 -> n118 // "NormalFunction" -> "Statement"
+  n118 -> n119 // "Statement" -> "ntb"
+  n118 -> n120 // "Statement" -> "="
+  n118 -> n121 // "Statement" -> "Expression"
+  n121 -> n122 // "Expression" -> "root"
+  n121 -> n123 // "Expression" -> "."
+  n121 -> n124 // "Expression" -> "Insert"
+  n121 -> n125 // "Expression" -> "("
+  n121 -> n126 // "Expression" -> "Expression"
+  n126 -> n127 // "Expression" -> "24"
+  n121 -> n128 // "Expression" -> ")"
+  n118 -> n129 // "Statement" -> ";"
+  n38 -> n130 // "NormalFunction" -> "Statement"
+  n130 -> n131 // "Statement" -> "ntb"
+  n130 -> n132 // "Statement" -> "="
+  n130 -> n133 // "Statement" -> "Expression"
+  n133 -> n134 // "Expression" -> "root"
+  n133 -> n135 // "Expression" -> "."
+  n133 -> n136 // "Expression" -> "Insert"
+  n133 -> n137 // "Expression" -> "("
+  n133 -> n138 // "Expression" -> "Expression"
+  n138 -> n139 // "Expression" -> "4"
+  n133 -> n140 // "Expression" -> ")"
+  n130 -> n141 // "Statement" -> ";"
+  n38 -> n142 // "NormalFunction" -> "Statement"
+  n142 -> n143 // "Statement" -> "ntb"
+  n142 -> n144 // "Statement" -> "="
+  n142 -> n145 // "Statement" -> "Expression"
+  n145 -> n146 // "Expression" -> "root"
+  n145 -> n147 // "Expression" -> "."
+  n145 -> n148 // "Expression" -> "Insert"
+  n145 -> n149 // "Expression" -> "("
+  n145 -> n150 // "Expression" -> "Expression"
+  n150 -> n151 // "Expression" -> "12"
+  n145 -> n152 // "Expression" -> ")"
+  n142 -> n153 // "Statement" -> ";"
+  n38 -> n154 // "NormalFunction" -> "Statement"
+  n154 -> n155 // "Statement" -> "ntb"
+  n154 -> n156 // "Statement" -> "="
+  n154 -> n157 // "Statement" -> "Expression"
+  n157 -> n158 // "Expression" -> "root"
+  n157 -> n159 // "Expression" -> "."
+  n157 -> n160 // "Expression" -> "Insert"
+  n157 -> n161 // "Expression" -> "("
+  n157 -> n162 // "Expression" -> "Expression"
+  n162 -> n163 // "Expression" -> "20"
+  n157 -> n164 // "Expression" -> ")"
+  n154 -> n165 // "Statement" -> ";"
+  n38 -> n166 // "NormalFunction" -> "Statement"
+  n166 -> n167 // "Statement" -> "ntb"
+  n166 -> n168 // "Statement" -> "="
+  n166 -> n169 // "Statement" -> "Expression"
+  n169 -> n170 // "Expression" -> "root"
+  n169 -> n171 // "Expression" -> "."
+  n169 -> n172 // "Expression" -> "Insert"
+  n169 -> n173 // "Expression" -> "("
+  n169 -> n174 // "Expression" -> "Expression"
+  n174 -> n175 // "Expression" -> "28"
+  n169 -> n176 // "Expression" -> ")"
+  n166 -> n177 // "Statement" -> ";"
+  n38 -> n178 // "NormalFunction" -> "Statement"
+  n178 -> n179 // "Statement" -> "ntb"
+  n178 -> n180 // "Statement" -> "="
+  n178 -> n181 // "Statement" -> "Expression"
+  n181 -> n182 // "Expression" -> "root"
+  n181 -> n183 // "Expression" -> "."
+  n181 -> n184 // "Expression" -> "Insert"
+  n181 -> n185 // "Expression" -> "("
+  n181 -> n186 // "Expression" -> "Expression"
+  n186 -> n187 // "Expression" -> "14"
+  n181 -> n188 // "Expression" -> ")"
+  n178 -> n189 // "Statement" -> ";"
+  n38 -> n190 // "NormalFunction" -> "Statement"
+  n190 -> n191 // "Statement" -> "ntb"
+  n190 -> n192 // "Statement" -> "="
+  n190 -> n193 // "Statement" -> "Expression"
+  n193 -> n194 // "Expression" -> "root"
+  n193 -> n195 // "Expression" -> "."
+  n193 -> n196 // "Expression" -> "Print"
+  n193 -> n197 // "Expression" -> "("
+  n193 -> n198 // "Expression" -> ")"
+  n190 -> n199 // "Statement" -> ";"
+  n38 -> n200 // "NormalFunction" -> "Statement"
+  n200 -> n201 // "Statement" -> "System.out."
+  n200 -> n202 // "Statement" -> "println"
+  n200 -> n203 // "Statement" -> "("
+  n200 -> n204 // "Statement" -> "Expression"
+  n204 -> n205 // "Expression" -> "root"
+  n204 -> n206 // "Expression" -> "."
+  n204 -> n207 // "Expression" -> "Search"
+  n204 -> n208 // "Expression" -> "("
+  n204 -> n209 // "Expression" -> "Expression"
+  n209 -> n210 // "Expression" -> "24"
+  n204 -> n211 // "Expression" -> ")"
+  n200 -> n212 // "Statement" -> ")"
+  n200 -> n213 // "Statement" -> ";"
+  n38 -> n214 // "NormalFunction" -> "Statement"
+  n214 -> n215 // "Statement" -> "System.out."
+  n214 -> n216 // "Statement" -> "println"
+  n214 -> n217 // "Statement" -> "("
+  n214 -> n218 // "Statement" -> "Expression"
+  n218 -> n219 // "Expression" -> "root"
+  n218 -> n220 // "Expression" -> "."
+  n218 -> n221 // "Expression" -> "Search"
+  n218 -> n222 // "Expression" -> "("
+  n218 -> n223 // "Expression" -> "Expression"
+  n223 -> n224 // "Expression" -> "12"
+  n218 -> n225 // "Expression" -> ")"
+  n214 -> n226 // "Statement" -> ")"
+  n214 -> n227 // "Statement" -> ";"
+  n38 -> n228 // "NormalFunction" -> "Statement"
+  n228 -> n229 // "Statement" -> "System.out."
+  n228 -> n230 // "Statement" -> "println"
+  n228 -> n231 // "Statement" -> "("
+  n228 -> n232 // "Statement" -> "Expression"
+  n232 -> n233 // "Expression" -> "root"
+  n232 -> n234 // "Expression" -> "."
+  n232 -> n235 // "Expression" -> "Search"
+  n232 -> n236 // "Expression" -> "("
+  n232 -> n237 // "Expression" -> "Expression"
+  n237 -> n238 // "Expression" -> "16"
+  n232 -> n239 // "Expression" -> ")"
+  n228 -> n240 // "Statement" -> ")"
+  n228 -> n241 // "Statement" -> ";"
+  n38 -> n242 // "NormalFunction" -> "Statement"
+  n242 -> n243 // "Statement" -> "System.out."
+  n242 -> n244 // "Statement" -> "println"
+  n242 -> n245 // "Statement" -> "("
+  n242 -> n246 // "Statement" -> "Expression"
+  n246 -> n247 // "Expression" -> "root"
+  n246 -> n248 // "Expression" -> "."
+  n246 -> n249 // "Expression" -> "Search"
+  n246 -> n250 // "Expression" -> "("
+  n246 -> n251 // "Expression" -> "Expression"
+  n251 -> n252 // "Expression" -> "50"
+  n246 -> n253 // "Expression" -> ")"
+  n242 -> n254 // "Statement" -> ")"
+  n242 -> n255 // "Statement" -> ";"
+  n38 -> n256 // "NormalFunction" -> "Statement"
+  n256 -> n257 // "Statement" -> "System.out."
+  n256 -> n258 // "Statement" -> "println"
+  n256 -> n259 // "Statement" -> "("
+  n256 -> n260 // "Statement" -> "Expression"
+  n260 -> n261 // "Expression" -> "root"
+  n260 -> n262 // "Expression" -> "."
+  n260 -> n263 // "Expression" -> "Search"
+  n260 -> n264 // "Expression" -> "("
+  n260 -> n265 // "Expression" -> "Expression"
+  n265 -> n266 // "Expression" -> "12"
+  n260 -> n267 // "Expression" -> ")"
+  n256 -> n268 // "Statement" -> ")"
+  n256 -> n269 // "Statement" -> ";"
+  n38 -> n270 // "NormalFunction" -> "Statement"
+  n270 -> n271 // "Statement" -> "ntb"
+  n270 -> n272 // "Statement" -> "="
+  n270 -> n273 // "Statement" -> "Expression"
+  n273 -> n274 // "Expression" -> "root"
+  n273 -> n275 // "Expression" -> "."
+  n273 -> n276 // "Expression" -> "Delete"
+  n273 -> n277 // "Expression" -> "("
+  n273 -> n278 // "Expression" -> "Expression"
+  n278 -> n279 // "Expression" -> "12"
+  n273 -> n280 // "Expression" -> ")"
+  n270 -> n281 // "Statement" -> ";"
+  n38 -> n282 // "NormalFunction" -> "Statement"
+  n282 -> n283 // "Statement" -> "ntb"
+  n282 -> n284 // "Statement" -> "="
+  n282 -> n285 // "Statement" -> "Expression"
+  n285 -> n286 // "Expression" -> "root"
+  n285 -> n287 // "Expression" -> "."
+  n285 -> n288 // "Expression" -> "Print"
+  n285 -> n289 // "Expression" -> "("
+  n285 -> n290 // "Expression" -> ")"
+  n282 -> n291 // "Statement" -> ";"
+  n38 -> n292 // "NormalFunction" -> "Statement"
+  n292 -> n293 // "Statement" -> "System.out."
+  n292 -> n294 // "Statement" -> "println"
+  n292 -> n295 // "Statement" -> "("
+  n292 -> n296 // "Statement" -> "Expression"
+  n296 -> n297 // "Expression" -> "root"
+  n296 -> n298 // "Expression" -> "."
+  n296 -> n299 // "Expression" -> "Search"
+  n296 -> n300 // "Expression" -> "("
+  n296 -> n301 // "Expression" -> "Expression"
+  n301 -> n302 // "Expression" -> "12"
+  n296 -> n303 // "Expression" -> ")"
+  n292 -> n304 // "Statement" -> ")"
+  n292 -> n305 // "Statement" -> ";"
+  n38 -> n306 // "NormalFunction" -> "return"
+  n38 -> n307 // "NormalFunction" -> "Expression"
+  n307 -> n308 // "Expression" -> "0"
+  n38 -> n309 // "NormalFunction" -> ";"
+  n38 -> n310 // "NormalFunction" -> "}"
+  n34 -> n311 // "Class" -> "}"
+  n0 -> n312 // "" -> "Class"
+  n312 -> n313 // "Class" -> "class"
+  n312 -> n314 // "Class" -> "Tree"
+  n312 -> n315 // "Class" -> "{"
+  n312 -> n316 // "Class" -> "Variables"
+  n316 -> n317 // "Variables" -> "Tree"
+  n316 -> n318 // "Variables" -> "left"
+  n316 -> n319 // "Variables" -> ";"
+  n312 -> n320 // "Class" -> "Variables"
+  n320 -> n321 // "Variables" -> "Tree"
+  n320 -> n322 // "Variables" -> "right"
+  n320 -> n323 // "Variables" -> ";"
+  n312 -> n324 // "Class" -> "Variables"
+  n324 -> n325 // "Variables" -> "int"
+  n324 -> n326 // "Variables" -> "key"
+  n324 -> n327 // "Variables" -> ";"
+  n312 -> n328 // "Class" -> "Variables"
+  n328 -> n329 // "Variables" -> "boolean"
+  n328 -> n330 // "Variables" -> "has_left"
+  n328 -> n331 // "Variables" -> ";"
+  n312 -> n332 // "Class" -> "Variables"
+  n332 -> n333 // "Variables" -> "boolean"
+  n332 -> n334 // "Variables" -> "has_right"
+  n332 -> n335 // "Variables" -> ";"
+  n312 -> n336 // "Class" -> "Variables"
+  n336 -> n337 // "Variables" -> "Tree"
+  n336 -> n338 // "Variables" -> "my_null"
+  n336 -> n339 // "Variables" -> ";"
+  n312 -> n340 // "Class" -> "NormalFunction"
+  n340 -> n341 // "NormalFunction" -> "public"
+  n340 -> n342 // "NormalFunction" -> "boolean"
+  n340 -> n343 // "NormalFunction" -> "Init"
+  n340 -> n344 // "NormalFunction" -> "("
+  n340 -> n345 // "NormalFunction" -> "int"
+  n340 -> n346 // "NormalFunction" -> "v_key"
+  n340 -> n347 // "NormalFunction" -> ")"
+  n340 -> n348 // "NormalFunction" -> "{"
+  n340 -> n349 // "NormalFunction" -> "Statement"
+  n349 -> n350 // "Statement" -> "key"
+  n349 -> n351 // "Statement" -> "="
+  n349 -> n352 // "Statement" -> "Expression"
+  n352 -> n353 // "Expression" -> "v_key"
+  n349 -> n354 // "Statement" -> ";"
+  n340 -> n355 // "NormalFunction" -> "Statement"
+  n355 -> n356 // "Statement" -> "has_left"
+  n355 -> n357 // "Statement" -> "="
+  n355 -> n358 // "Statement" -> "Expression"
+  n358 -> n359 // "Expression" -> "false"
+  n355 -> n360 // "Statement" -> ";"
+  n340 -> n361 // "NormalFunction" -> "Statement"
+  n361 -> n362 // "Statement" -> "has_right"
+  n361 -> n363 // "Statement" -> "="
+  n361 -> n364 // "Statement" -> "Expression"
+  n364 -> n365 // "Expression" -> "false"
+  n361 -> n366 // "Statement" -> ";"
+  n340 -> n367 // "NormalFunction" -> "return"
+  n340 -> n368 // "NormalFunction" -> "Expression"
+  n368 -> n369 // "Expression" -> "true"
+  n340 -> n370 // "NormalFunction" -> ";"
+  n340 -> n371 // "NormalFunction" -> "}"
+  n312 -> n372 // "Class" -> "NormalFunction"
+  n372 -> n373 // "NormalFunction" -> "public"
+  n372 -> n374 // "NormalFunction" -> "boolean"
+  n372 -> n375 // "NormalFunction" -> "SetRight"
+  n372 -> n376 // "NormalFunction" -> "("
+  n372 -> n377 // "NormalFunction" -> "Tree"
+  n372 -> n378 // "NormalFunction" -> "rn"
+  n372 -> n379 // "NormalFunction" -> ")"
+  n372 -> n380 // "NormalFunction" -> "{"
+  n372 -> n381 // "NormalFunction" -> "Statement"
+  n381 -> n382 // "Statement" -> "right"
+  n381 -> n383 // "Statement" -> "="
+  n381 -> n384 // "Statement" -> "Expression"
+  n384 -> n385 // "Expression" -> "rn"
+  n381 -> n386 // "Statement" -> ";"
+  n372 -> n387 // "NormalFunction" -> "return"
+  n372 -> n388 // "NormalFunction" -> "Expression"
+  n388 -> n389 // "Expression" -> "true"
+  n372 -> n390 // "NormalFunction" -> ";"
+  n372 -> n391 // "NormalFunction" -> "}"
+  n312 -> n392 // "Class" -> "NormalFunction"
+  n392 -> n393 // "NormalFunction" -> "public"
+  n392 -> n394 // "NormalFunction" -> "boolean"
+  n392 -> n395 // "NormalFunction" -> "SetLeft"
+  n392 -> n396 // "NormalFunction" -> "("
+  n392 -> n397 // "NormalFunction" -> "Tree"
+  n392 -> n398 // "NormalFunction" -> "ln"
+  n392 -> n399 // "NormalFunction" -> ")"
+  n392 -> n400 // "NormalFunction" -> "{"
+  n392 -> n401 // "NormalFunction" -> "Statement"
+  n401 -> n402 // "Statement" -> "left"
+  n401 -> n403 // "Statement" -> "="
+  n401 -> n404 // "Statement" -> "Expression"
+  n404 -> n405 // "Expression" -> "ln"
+  n401 -> n406 // "Statement" -> ";"
+  n392 -> n407 // "NormalFunction" -> "return"
+  n392 -> n408 // "NormalFunction" -> "Expression"
+  n408 -> n409 // "Expression" -> "true"
+  n392 -> n410 // "NormalFunction" -> ";"
+  n392 -> n411 // "NormalFunction" -> "}"
+  n312 -> n412 // "Class" -> "NormalFunction"
+  n412 -> n413 // "NormalFunction" -> "public"
+  n412 -> n414 // "NormalFunction" -> "Tree"
+  n412 -> n415 // "NormalFunction" -> "GetRight"
+  n412 -> n416 // "NormalFunction" -> "("
+  n412 -> n417 // "NormalFunction" -> ")"
+  n412 -> n418 // "NormalFunction" -> "{"
+  n412 -> n419 // "NormalFunction" -> "return"
+  n412 -> n420 // "NormalFunction" -> "Expression"
+  n420 -> n421 // "Expression" -> "right"
+  n412 -> n422 // "NormalFunction" -> ";"
+  n412 -> n423 // "NormalFunction" -> "}"
+  n312 -> n424 // "Class" -> "NormalFunction"
+  n424 -> n425 // "NormalFunction" -> "public"
+  n424 -> n426 // "NormalFunction" -> "Tree"
+  n424 -> n427 // "NormalFunction" -> "GetLeft"
+  n424 -> n428 // "NormalFunction" -> "("
+  n424 -> n429 // "NormalFunction" -> ")"
+  n424 -> n430 // "NormalFunction" -> "{"
+  n424 -> n431 // "NormalFunction" -> "return"
+  n424 -> n432 // "NormalFunction" -> "Expression"
+  n432 -> n433 // "Expression" -> "left"
+  n424 -> n434 // "NormalFunction" -> ";"
+  n424 -> n435 // "NormalFunction" -> "}"
+  n312 -> n436 // "Class" -> "NormalFunction"
+  n436 -> n437 // "NormalFunction" -> "public"
+  n436 -> n438 // "NormalFunction" -> "int"
+  n436 -> n439 // "NormalFunction" -> "GetKey"
+  n436 -> n440 // "NormalFunction" -> "("
+  n436 -> n441 // "NormalFunction" -> ")"
+  n436 -> n442 // "NormalFunction" -> "{"
+  n436 -> n443 // "NormalFunction" -> "return"
+  n436 -> n444 // "NormalFunction" -> "Expression"
+  n444 -> n445 // "Expression" -> "key"
+  n436 -> n446 // "NormalFunction" -> ";"
+  n436 -> n447 // "NormalFunction" -> "}"
+  n312 -> n448 // "Class" -> "NormalFunction"
+  n448 -> n449 // "NormalFunction" -> "public"
+  n448 -> n450 // "NormalFunction" -> "boolean"
+  n448 -> n451 // "NormalFunction" -> "SetKey"
+  n448 -> n452 // "NormalFunction" -> "("
+  n448 -> n453 // "NormalFunction" -> "int"
+  n448 -> n454 // "NormalFunction" -> "v_key"
+  n448 -> n455 // "NormalFunction" -> ")"
+  n448 -> n456 // "NormalFunction" -> "{"
+  n448 -> n457 // "NormalFunction" -> "Statement"
+  n457 -> n458 // "Statement" -> "key"
+  n457 -> n459 // "Statement" -> "="
+  n457 -> n460 // "Statement" -> "Expression"
+  n460 -> n461 // "Expression" -> "v_key"
+  n457 -> n462 // "Statement" -> ";"
+  n448 -> n463 // "NormalFunction" -> "return"
+  n448 -> n464 // "NormalFunction" -> "Expression"
+  n464 -> n465 // "Expression" -> "true"
+  n448 -> n466 // "NormalFunction" -> ";"
+  n448 -> n467 // "NormalFunction" -> "}"
+  n312 -> n468 // "Class" -> "NormalFunction"
+  n468 -> n469 // "NormalFunction" -> "public"
+  n468 -> n470 // "NormalFunction" -> "boolean"
+  n468 -> n471 // "NormalFunction" -> "GetHas_Right"
+  n468 -> n472 // "NormalFunction" -> "("
+  n468 -> n473 // "NormalFunction" -> ")"
+  n468 -> n474 // "NormalFunction" -> "{"
+  n468 -> n475 // "NormalFunction" -> "return"
+  n468 -> n476 // "NormalFunction" -> "Expression"
+  n476 -> n477 // "Expression" -> "has_right"
+  n468 -> n478 // "NormalFunction" -> ";"
+  n468 -> n479 // "NormalFunction" -> "}"
+  n312 -> n480 // "Class" -> "NormalFunction"
+  n480 -> n481 // "NormalFunction" -> "public"
+  n480 -> n482 // "NormalFunction" -> "boolean"
+  n480 -> n483 // "NormalFunction" -> "GetHas_Left"
+  n480 -> n484 // "NormalFunction" -> "("
+  n480 -> n485 // "NormalFunction" -> ")"
+  n480 -> n486 // "NormalFunction" -> "{"
+  n480 -> n487 // "NormalFunction" -> "return"
+  n480 -> n488 // "NormalFunction" -> "Expression"
+  n488 -> n489 // "Expression" -> "has_left"
+  n480 -> n490 // "NormalFunction" -> ";"
+  n480 -> n491 // "NormalFunction" -> "}"
+  n312 -> n492 // "Class" -> "NormalFunction"
+  n492 -> n493 // "NormalFunction" -> "public"
+  n492 -> n494 // "NormalFunction" -> "boolean"
+  n492 -> n495 // "NormalFunction" -> "SetHas_Left"
+  n492 -> n496 // "NormalFunction" -> "("
+  n492 -> n497 // "NormalFunction" -> "boolean"
+  n492 -> n498 // "NormalFunction" -> "val"
+  n492 -> n499 // "NormalFunction" -> ")"
+  n492 -> n500 // "NormalFunction" -> "{"
+  n492 -> n501 // "NormalFunction" -> "Statement"
+  n501 -> n502 // "Statement" -> "has_left"
+  n501 -> n503 // "Statement" -> "="
+  n501 -> n504 // "Statement" -> "Expression"
+  n504 -> n505 // "Expression" -> "val"
+  n501 -> n506 // "Statement" -> ";"
+  n492 -> n507 // "NormalFunction" -> "return"
+  n492 -> n508 // "NormalFunction" -> "Expression"
+  n508 -> n509 // "Expression" -> "true"
+  n492 -> n510 // "NormalFunction" -> ";"
+  n492 -> n511 // "NormalFunction" -> "}"
+  n312 -> n512 // "Class" -> "NormalFunction"
+  n512 -> n513 // "NormalFunction" -> "public"
+  n512 -> n514 // "NormalFunction" -> "boolean"
+  n512 -> n515 // "NormalFunction" -> "SetHas_Right"
+  n512 -> n516 // "NormalFunction" -> "("
+  n512 -> n517 // "NormalFunction" -> "boolean"
+  n512 -> n518 // "NormalFunction" -> "val"
+  n512 -> n519 // "NormalFunction" -> ")"
+  n512 -> n520 // "NormalFunction" -> "{"
+  n512 -> n521 // "NormalFunction" -> "Statement"
+  n521 -> n522 // "Statement" -> "has_right"
+  n521 -> n523 // "Statement" -> "="
+  n521 -> n524 // "Statement" -> "Expression"
+  n524 -> n525 // "Expression" -> "val"
+  n521 -> n526 // "Statement" -> ";"
+  n512 -> n527 // "NormalFunction" -> "return"
+  n512 -> n528 // "NormalFunction" -> "Expression"
+  n528 -> n529 // "Expression" -> "true"
+  n512 -> n530 // "NormalFunction" -> ";"
+  n512 -> n531 // "NormalFunction" -> "}"
+  n312 -> n532 // "Class" -> "NormalFunction"
+  n532 -> n533 // "NormalFunction" -> "public"
+  n532 -> n534 // "NormalFunction" -> "boolean"
+  n532 -> n535 // "NormalFunction" -> "Compare"
+  n532 -> n536 // "NormalFunction" -> "("
+  n532 -> n537 // "NormalFunction" -> "int"
+  n532 -> n538 // "NormalFunction" -> "num1"
+  n532 -> n539 // "NormalFunction" -> ","
+  n532 -> n540 // "NormalFunction" -> "int"
+  n532 -> n541 // "NormalFunction" -> "num2"
+  n532 -> n542 // "NormalFunction" -> ")"
+  n532 -> n543 // "NormalFunction" -> "{"
+  n532 -> n544 // "NormalFunction" -> "Variables"
+  n544 -> n545 // "Variables" -> "boolean"
+  n544 -> n546 // "Variables" -> "ntb"
+  n544 -> n547 // "Variables" -> ";"
+  n532 -> n548 // "NormalFunction" -> "Variables"
+  n548 -> n549 // "Variables" -> "int"
+  n548 -> n550 // "Variables" -> "nti"
+  n548 -> n551 // "Variables" -> ";"
+  n532 -> n552 // "NormalFunction" -> "Statement"
+  n552 -> n553 // "Statement" -> "ntb"
+  n552 -> n554 // "Statement" -> "="
+  n552 -> n555 // "Statement" -> "Expression"
+  n555 -> n556 // "Expression" -> "false"
+  n552 -> n557 // "Statement" -> ";"
+  n532 -> n558 // "NormalFunction" -> "Statement"
+  n558 -> n559 // "Statement" -> "nti"
+  n558 -> n560 // "Statement" -> "="
+  n558 -> n561 // "Statement" -> "Expression"
+  n561 -> n562 // "Expression" -> "num2"
+  n561 -> n563 // "Expression" -> "+"
+  n561 -> n564 // "Expression" -> "1"
+  n558 -> n565 // "Statement" -> ";"
+  n532 -> n566 // "NormalFunction" -> "IfStatement"
+  n566 -> n567 // "IfStatement" -> "if"
+  n566 -> n568 // "IfStatement" -> "("
+  n566 -> n569 // "IfStatement" -> "Expression"
+  n569 -> n570 // "Expression" -> "num1"
+  n569 -> n571 // "Expression" -> "<"
+  n569 -> n572 // "Expression" -> "num2"
+  n566 -> n573 // "IfStatement" -> ")"
+  n566 -> n574 // "IfStatement" -> "Statement"
+  n574 -> n575 // "Statement" -> "ntb"
+  n574 -> n576 // "Statement" -> "="
+  n574 -> n577 // "Statement" -> "Expression"
+  n577 -> n578 // "Expression" -> "false"
+  n574 -> n579 // "Statement" -> ";"
+  n566 -> n580 // "IfStatement" -> "else"
+  n566 -> n581 // "IfStatement" -> "IfStatement"
+  n581 -> n582 // "IfStatement" -> "if"
+  n581 -> n583 // "IfStatement" -> "("
+  n581 -> n584 // "IfStatement" -> "Expression"
+  n584 -> n585 // "Expression" -> "!"
+  n584 -> n586 // "Expression" -> "Expression"
+  n586 -> n587 // "Expression" -> "("
+  n586 -> n588 // "Expression" -> "Expression"
+  n588 -> n589 // "Expression" -> "num1"
+  n588 -> n590 // "Expression" -> "<"
+  n588 -> n591 // "Expression" -> "nti"
+  n586 -> n592 // "Expression" -> ")"
+  n581 -> n593 // "IfStatement" -> ")"
+  n581 -> n594 // "IfStatement" -> "Statement"
+  n594 -> n595 // "Statement" -> "ntb"
+  n594 -> n596 // "Statement" -> "="
+  n594 -> n597 // "Statement" -> "Expression"
+  n597 -> n598 // "Expression" -> "false"
+  n594 -> n599 // "Statement" -> ";"
+  n581 -> n600 // "IfStatement" -> "else"
+  n581 -> n601 // "IfStatement" -> "Statement"
+  n601 -> n602 // "Statement" -> "ntb"
+  n601 -> n603 // "Statement" -> "="
+  n601 -> n604 // "Statement" -> "Expression"
+  n604 -> n605 // "Expression" -> "true"
+  n601 -> n606 // "Statement" -> ";"
+  n532 -> n607 // "NormalFunction" -> "return"
+  n532 -> n608 // "NormalFunction" -> "Expression"
+  n608 -> n609 // "Expression" -> "ntb"
+  n532 -> n610 // "NormalFunction" -> ";"
+  n532 -> n611 // "NormalFunction" -> "}"
+  n312 -> n612 // "Class" -> "NormalFunction"
+  n612 -> n613 // "NormalFunction" -> "public"
+  n612 -> n614 // "NormalFunction" -> "boolean"
+  n612 -> n615 // "NormalFunction" -> "Insert"
+  n612 -> n616 // "NormalFunction" -> "("
+  n612 -> n617 // "NormalFunction" -> "int"
+  n612 -> n618 // "NormalFunction" -> "v_key"
+  n612 -> n619 // "NormalFunction" -> ")"
+  n612 -> n620 // "NormalFunction" -> "{"
+  n612 -> n621 // "NormalFunction" -> "Variables"
+  n621 -> n622 // "Variables" -> "Tree"
+  n621 -> n623 // "Variables" -> "new_node"
+  n621 -> n624 // "Variables" -> ";"
+  n612 -> n625 // "NormalFunction" -> "Variables"
+  n625 -> n626 // "Variables" -> "boolean"
+  n625 -> n627 // "Variables" -> "ntb"
+  n625 -> n628 // "Variables" -> ";"
+  n612 -> n629 // "NormalFunction" -> "Variables"
+  n629 -> n630 // "Variables" -> "boolean"
+  n629 -> n631 // "Variables" -> "cont"
+  n629 -> n632 // "Variables" -> ";"
+  n612 -> n633 // "NormalFunction" -> "Variables"
+  n633 -> n634 // "Variables" -> "int"
+  n633 -> n635 // "Variables" -> "key_aux"
+  n633 -> n636 // "Variables" -> ";"
+  n612 -> n637 // "NormalFunction" -> "Variables"
+  n637 -> n638 // "Variables" -> "Tree"
+  n637 -> n639 // "Variables" -> "current_node"
+  n637 -> n640 // "Variables" -> ";"
+  n612 -> n641 // "NormalFunction" -> "Statement"
+  n641 -> n642 // "Statement" -> "new_node"
+  n641 -> n643 // "Statement" -> "="
+  n641 -> n644 // "Statement" -> "Expression"
+  n644 -> n645 // "Expression" -> "new"
+  n644 -> n646 // "Expression" -> "Tree"
+  n644 -> n647 // "Expression" -> "("
+  n644 -> n648 // "Expression" -> ")"
+  n641 -> n649 // "Statement" -> ";"
+  n612 -> n650 // "NormalFunction" -> "Statement"
+  n650 -> n651 // "Statement" -> "ntb"
+  n650 -> n652 // "Statement" -> "="
+  n650 -> n653 // "Statement" -> "Expression"
+  n653 -> n654 // "Expression" -> "new_node"
+  n653 -> n655 // "Expression" -> "."
+  n653 -> n656 // "Expression" -> "Init"
+  n653 -> n657 // "Expression" -> "("
+  n653 -> n658 // "Expression" -> "Expression"
+  n658 -> n659 // "Expression" -> "v_key"
+  n653 -> n660 // "Expression" -> ")"
+  n650 -> n661 // "Statement" -> ";"
+  n612 -> n662 // "NormalFunction" -> "Statement"
+  n662 -> n663 // "Statement" -> "current_node"
+  n662 -> n664 // "Statement" -> "="
+  n662 -> n665 // "Statement" -> "Expression"
+  n665 -> n666 // "Expression" -> "this"
+  n662 -> n667 // "Statement" -> ";"
+  n612 -> n668 // "NormalFunction" -> "Statement"
+  n668 -> n669 // "Statement" -> "cont"
+  n668 -> n670 // "Statement" -> "="
+  n668 -> n671 // "Statement" -> "Expression"
+  n671 -> n672 // "Expression" -> "true"
+  n668 -> n673 // "Statement" -> ";"
+  n612 -> n674 // "NormalFunction" -> "WhileStatement"
+  n674 -> n675 // "WhileStatement" -> "while"
+  n674 -> n676 // "WhileStatement" -> "("
+  n674 -> n677 // "WhileStatement" -> "Expression"
+  n677 -> n678 // "Expression" -> "cont"
+  n674 -> n679 // "WhileStatement" -> ")"
+  n674 -> n680 // "WhileStatement" -> "Statement"
+  n680 -> n681 // "Statement" -> "{"
+  n680 -> n682 // "Statement" -> "Statement"
+  n682 -> n683 // "Statement" -> "key_aux"
+  n682 -> n684 // "Statement" -> "="
+  n682 -> n685 // "Statement" -> "Expression"
+  n685 -> n686 // "Expression" -> "current_node"
+  n685 -> n687 // "Expression" -> "."
+  n685 -> n688 // "Expression" -> "GetKey"
+  n685 -> n689 // "Expression" -> "("
+  n685 -> n690 // "Expression" -> ")"
+  n682 -> n691 // "Statement" -> ";"
+  n680 -> n692 // "Statement" -> "IfStatement"
+  n692 -> n693 // "IfStatement" -> "if"
+  n692 -> n694 // "IfStatement" -> "("
+  n692 -> n695 // "IfStatement" -> "Expression"
+  n695 -> n696 // "Expression" -> "v_key"
+  n695 -> n697 // "Expression" -> "<"
+  n695 -> n698 // "Expression" -> "key_aux"
+  n692 -> n699 // "IfStatement" -> ")"
+  n692 -> n700 // "IfStatement" -> "Statement"
+  n700 -> n701 // "Statement" -> "{"
+  n700 -> n702 // "Statement" -> "IfStatement"
+  n702 -> n703 // "IfStatement" -> "if"
+  n702 -> n704 // "IfStatement" -> "("
+  n702 -> n705 // "IfStatement" -> "Expression"
+  n705 -> n706 // "Expression" -> "current_node"
+  n705 -> n707 // "Expression" -> "."
+  n705 -> n708 // "Expression" -> "GetHas_Left"
+  n705 -> n709 // "Expression" -> "("
+  n705 -> n710 // "Expression" -> ")"
+  n702 -> n711 // "IfStatement" -> ")"
+  n702 -> n712 // "IfStatement" -> "Statement"
+  n712 -> n713 // "Statement" -> "current_node"
+  n712 -> n714 // "Statement" -> "="
+  n712 -> n715 // "Statement" -> "Expression"
+  n715 -> n716 // "Expression" -> "current_node"
+  n715 -> n717 // "Expression" -> "."
+  n715 -> n718 // "Expression" -> "GetLeft"
+  n715 -> n719 // "Expression" -> "("
+  n715 -> n720 // "Expression" -> ")"
+  n712 -> n721 // "Statement" -> ";"
+  n702 -> n722 // "IfStatement" -> "else"
+  n702 -> n723 // "IfStatement" -> "Statement"
+  n723 -> n724 // "Statement" -> "{"
+  n723 -> n725 // "Statement" -> "Statement"
+  n725 -> n726 // "Statement" -> "cont"
+  n725 -> n727 // "Statement" -> "="
+  n725 -> n728 // "Statement" -> "Expression"
+  n728 -> n729 // "Expression" -> "false"
+  n725 -> n730 // "Statement" -> ";"
+  n723 -> n731 // "Statement" -> "Statement"
+  n731 -> n732 // "Statement" -> "ntb"
+  n731 -> n733 // "Statement" -> "="
+  n731 -> n734 // "Statement" -> "Expression"
+  n734 -> n735 // "Expression" -> "current_node"
+  n734 -> n736 // "Expression" -> "."
+  n734 -> n737 // "Expression" -> "SetHas_Left"
+  n734 -> n738 // "Expression" -> "("
+  n734 -> n739 // "Expression" -> "Expression"
+  n739 -> n740 // "Expression" -> "true"
+  n734 -> n741 // "Expression" -> ")"
+  n731 -> n742 // "Statement" -> ";"
+  n723 -> n743 // "Statement" -> "Statement"
+  n743 -> n744 // "Statement" -> "ntb"
+  n743 -> n745 // "Statement" -> "="
+  n743 -> n746 // "Statement" -> "Expression"
+  n746 -> n747 // "Expression" -> "current_node"
+  n746 -> n748 // "Expression" -> "."
+  n746 -> n749 // "Expression" -> "SetLeft"
+  n746 -> n750 // "Expression" -> "("
+  n746 -> n751 // "Expression" -> "Expression"
+  n751 -> n752 // "Expression" -> "new_node"
+  n746 -> n753 // "Expression" -> ")"
+  n743 -> n754 // "Statement" -> ";"
+  n723 -> n755 // "Statement" -> "}"
+  n700 -> n756 // "Statement" -> "}"
+  n692 -> n757 // "IfStatement" -> "else"
+  n692 -> n758 // "IfStatement" -> "Statement"
+  n758 -> n759 // "Statement" -> "{"
+  n758 -> n760 // "Statement" -> "IfStatement"
+  n760 -> n761 // "IfStatement" -> "if"
+  n760 -> n762 // "IfStatement" -> "("
+  n760 -> n763 // "IfStatement" -> "Expression"
+  n763 -> n764 // "Expression" -> "current_node"
+  n763 -> n765 // "Expression" -> "."
+  n763 -> n766 // "Expression" -> "GetHas_Right"
+  n763 -> n767 // "Expression" -> "("
+  n763 -> n768 // "Expression" -> ")"
+  n760 -> n769 // "IfStatement" -> ")"
+  n760 -> n770 // "IfStatement" -> "Statement"
+  n770 -> n771 // "Statement" -> "current_node"
+  n770 -> n772 // "Statement" -> "="
+  n770 -> n773 // "Statement" -> "Expression"
+  n773 -> n774 // "Expression" -> "current_node"
+  n773 -> n775 // "Expression" -> "."
+  n773 -> n776 // "Expression" -> "GetRight"
+  n773 -> n777 // "Expression" -> "("
+  n773 -> n778 // "Expression" -> ")"
+  n770 -> n779 // "Statement" -> ";"
+  n760 -> n780 // "IfStatement" -> "else"
+  n760 -> n781 // "IfStatement" -> "Statement"
+  n781 -> n782 // "Statement" -> "{"
+  n781 -> n783 // "Statement" -> "Statement"
+  n783 -> n784 // "Statement" -> "cont"
+  n783 -> n785 // "Statement" -> "="
+  n783 -> n786 // "Statement" -> "Expression"
+  n786 -> n787 // "Expression" -> "false"
+  n783 -> n788 // "Statement" -> ";"
+  n781 -> n789 // "Statement" -> "Statement"
+  n789 -> n790 // "Statement" -> "ntb"
+  n789 -> n791 // "Statement" -> "="
+  n789 -> n792 // "Statement" -> "Expression"
+  n792 -> n793 // "Expression" -> "current_node"
+  n792 -> n794 // "Expression" -> "."
+  n792 -> n795 // "Expression" -> "SetHas_Right"
+  n792 -> n796 // "Expression" -> "("
+  n792 -> n797 // "Expression" -> "Expression"
+  n797 -> n798 // "Expression" -> "true"
+  n792 -> n799 // "Expression" -> ")"
+  n789 -> n800 // "Statement" -> ";"
+  n781 -> n801 // "Statement" -> "Statement"
+  n801 -> n802 // "Statement" -> "ntb"
+  n801 -> n803 // "Statement" -> "="
+  n801 -> n804 // "Statement" -> "Expression"
+  n804 -> n805 // "Expression" -> "current_node"
+  n804 -> n806 // "Expression" -> "."
+  n804 -> n807 // "Expression" -> "SetRight"
+  n804 -> n808 // "Expression" -> "("
+  n804 -> n809 // "Expression" -> "Expression"
+  n809 -> n810 // "Expression" -> "new_node"
+  n804 -> n811 // "Expression" -> ")"
+  n801 -> n812 // "Statement" -> ";"
+  n781 -> n813 // "Statement" -> "}"
+  n758 -> n814 // "Statement" -> "}"
+  n680 -> n815 // "Statement" -> "}"
+  n612 -> n816 // "NormalFunction" -> "return"
+  n612 -> n817 // "NormalFunction" -> "Expression"
+  n817 -> n818 // "Expression" -> "true"
+  n612 -> n819 // "NormalFunction" -> ";"
+  n612 -> n820 // "NormalFunction" -> "}"
+  n312 -> n821 // "Class" -> "NormalFunction"
+  n821 -> n822 // "NormalFunction" -> "public"
+  n821 -> n823 // "NormalFunction" -> "boolean"
+  n821 -> n824 // "NormalFunction" -> "Delete"
+  n821 -> n825 // "NormalFunction" -> "("
+  n821 -> n826 // "NormalFunction" -> "int"
+  n821 -> n827 // "NormalFunction" -> "v_key"
+  n821 -> n828 // "NormalFunction" -> ")"
+  n821 -> n829 // "NormalFunction" -> "{"
+  n821 -> n830 // "NormalFunction" -> "Variables"
+  n830 -> n831 // "Variables" -> "Tree"
+  n830 -> n832 // "Variables" -> "current_node"
+  n830 -> n833 // "Variables" -> ";"
+  n821 -> n834 // "NormalFunction" -> "Variables"
+  n834 -> n835 // "Variables" -> "Tree"
+  n834 -> n836 // "Variables" -> "parent_node"
+  n834 -> n837 // "Variables" -> ";"
+  n821 -> n838 // "NormalFunction" -> "Variables"
+  n838 -> n839 // "Variables" -> "boolean"
+  n838 -> n840 // "Variables" -> "cont"
+  n838 -> n841 // "Variables" -> ";"
+  n821 -> n842 // "NormalFunction" -> "Variables"
+  n842 -> n843 // "Variables" -> "boolean"
+  n842 -> n844 // "Variables" -> "found"
+  n842 -> n845 // "Variables" -> ";"
+  n821 -> n846 // "NormalFunction" -> "Variables"
+  n846 -> n847 // "Variables" -> "boolean"
+  n846 -> n848 // "Variables" -> "is_root"
+  n846 -> n849 // "Variables" -> ";"
+  n821 -> n850 // "NormalFunction" -> "Variables"
+  n850 -> n851 // "Variables" -> "int"
+  n850 -> n852 // "Variables" -> "key_aux"
+  n850 -> n853 // "Variables" -> ";"
+  n821 -> n854 // "NormalFunction" -> "Variables"
+  n854 -> n855 // "Variables" -> "boolean"
+  n854 -> n856 // "Variables" -> "ntb"
+  n854 -> n857 // "Variables" -> ";"
+  n821 -> n858 // "NormalFunction" -> "Statement"
+  n858 -> n859 // "Statement" -> "current_node"
+  n858 -> n860 // "Statement" -> "="
+  n858 -> n861 // "Statement" -> "Expression"
+  n861 -> n862 // "Expression" -> "this"
+  n858 -> n863 // "Statement" -> ";"
+  n821 -> n864 // "NormalFunction" -> "Statement"
+  n864 -> n865 // "Statement" -> "parent_node"
+  n864 -> n866 // "Statement" -> "="
+  n864 -> n867 // "Statement" -> "Expression"
+  n867 -> n868 // "Expression" -> "this"
+  n864 -> n869 // "Statement" -> ";"
+  n821 -> n870 // "NormalFunction" -> "Statement"
+  n870 -> n871 // "Statement" -> "cont"
+  n870 -> n872 // "Statement" -> "="
+  n870 -> n873 // "Statement" -> "Expression"
+  n873 -> n874 // "Expression" -> "true"
+  n870 -> n875 // "Statement" -> ";"
+  n821 -> n876 // "NormalFunction" -> "Statement"
+  n876 -> n877 // "Statement" -> "found"
+  n876 -> n878 // "Statement" -> "="
+  n876 -> n879 // "Statement" -> "Expression"
+  n879 -> n880 // "Expression" -> "false"
+  n876 -> n881 // "Statement" -> ";"
+  n821 -> n882 // "NormalFunction" -> "Statement"
+  n882 -> n883 // "Statement" -> "is_root"
+  n882 -> n884 // "Statement" -> "="
+  n882 -> n885 // "Statement" -> "Expression"
+  n885 -> n886 // "Expression" -> "true"
+  n882 -> n887 // "Statement" -> ";"
+  n821 -> n888 // "NormalFunction" -> "WhileStatement"
+  n888 -> n889 // "WhileStatement" -> "while"
+  n888 -> n890 // "WhileStatement" -> "("
+  n888 -> n891 // "WhileStatement" -> "Expression"
+  n891 -> n892 // "Expression" -> "cont"
+  n888 -> n893 // "WhileStatement" -> ")"
+  n888 -> n894 // "WhileStatement" -> "Statement"
+  n894 -> n895 // "Statement" -> "{"
+  n894 -> n896 // "Statement" -> "Statement"
+  n896 -> n897 // "Statement" -> "key_aux"
+  n896 -> n898 // "Statement" -> "="
+  n896 -> n899 // "Statement" -> "Expression"
+  n899 -> n900 // "Expression" -> "current_node"
+  n899 -> n901 // "Expression" -> "."
+  n899 -> n902 // "Expression" -> "GetKey"
+  n899 -> n903 // "Expression" -> "("
+  n899 -> n904 // "Expression" -> ")"
+  n896 -> n905 // "Statement" -> ";"
+  n894 -> n906 // "Statement" -> "IfStatement"
+  n906 -> n907 // "IfStatement" -> "if"
+  n906 -> n908 // "IfStatement" -> "("
+  n906 -> n909 // "IfStatement" -> "Expression"
+  n909 -> n910 // "Expression" -> "v_key"
+  n909 -> n911 // "Expression" -> "<"
+  n909 -> n912 // "Expression" -> "key_aux"
+  n906 -> n913 // "IfStatement" -> ")"
+  n906 -> n914 // "IfStatement" -> "IfStatement"
+  n914 -> n915 // "IfStatement" -> "if"
+  n914 -> n916 // "IfStatement" -> "("
+  n914 -> n917 // "IfStatement" -> "Expression"
+  n917 -> n918 // "Expression" -> "current_node"
+  n917 -> n919 // "Expression" -> "."
+  n917 -> n920 // "Expression" -> "GetHas_Left"
+  n917 -> n921 // "Expression" -> "("
+  n917 -> n922 // "Expression" -> ")"
+  n914 -> n923 // "IfStatement" -> ")"
+  n914 -> n924 // "IfStatement" -> "Statement"
+  n924 -> n925 // "Statement" -> "{"
+  n924 -> n926 // "Statement" -> "Statement"
+  n926 -> n927 // "Statement" -> "parent_node"
+  n926 -> n928 // "Statement" -> "="
+  n926 -> n929 // "Statement" -> "Expression"
+  n929 -> n930 // "Expression" -> "current_node"
+  n926 -> n931 // "Statement" -> ";"
+  n924 -> n932 // "Statement" -> "Statement"
+  n932 -> n933 // "Statement" -> "current_node"
+  n932 -> n934 // "Statement" -> "="
+  n932 -> n935 // "Statement" -> "Expression"
+  n935 -> n936 // "Expression" -> "current_node"
+  n935 -> n937 // "Expression" -> "."
+  n935 -> n938 // "Expression" -> "GetLeft"
+  n935 -> n939 // "Expression" -> "("
+  n935 -> n940 // "Expression" -> ")"
+  n932 -> n941 // "Statement" -> ";"
+  n924 -> n942 // "Statement" -> "}"
+  n914 -> n943 // "IfStatement" -> "else"
+  n914 -> n944 // "IfStatement" -> "Statement"
+  n944 -> n945 // "Statement" -> "cont"
+  n944 -> n946 // "Statement" -> "="
+  n944 -> n947 // "Statement" -> "Expression"
+  n947 -> n948 // "Expression" -> "false"
+  n944 -> n949 // "Statement" -> ";"
+  n906 -> n950 // "IfStatement" -> "else"
+  n906 -> n951 // "IfStatement" -> "IfStatement"
+  n951 -> n952 // "IfStatement" -> "if"
+  n951 -> n953 // "IfStatement" -> "("
+  n951 -> n954 // "IfStatement" -> "Expression"
+  n954 -> n955 // "Expression" -> "key_aux"
+  n954 -> n956 // "Expression" -> "<"
+  n954 -> n957 // "Expression" -> "v_key"
+  n951 -> n958 // "IfStatement" -> ")"
+  n951 -> n959 // "IfStatement" -> "IfStatement"
+  n959 -> n960 // "IfStatement" -> "if"
+  n959 -> n961 // "IfStatement" -> "("
+  n959 -> n962 // "IfStatement" -> "Expression"
+  n962 -> n963 // "Expression" -> "current_node"
+  n962 -> n964 // "Expression" -> "."
+  n962 -> n965 // "Expression" -> "GetHas_Right"
+  n962 -> n966 // "Expression" -> "("
+  n962 -> n967 // "Expression" -> ")"
+  n959 -> n968 // "IfStatement" -> ")"
+  n959 -> n969 // "IfStatement" -> "Statement"
+  n969 -> n970 // "Statement" -> "{"
+  n969 -> n971 // "Statement" -> "Statement"
+  n971 -> n972 // "Statement" -> "parent_node"
+  n971 -> n973 // "Statement" -> "="
+  n971 -> n974 // "Statement" -> "Expression"
+  n974 -> n975 // "Expression" -> "current_node"
+  n971 -> n976 // "Statement" -> ";"
+  n969 -> n977 // "Statement" -> "Statement"
+  n977 -> n978 // "Statement" -> "current_node"
+  n977 -> n979 // "Statement" -> "="
+  n977 -> n980 // "Statement" -> "Expression"
+  n980 -> n981 // "Expression" -> "current_node"
+  n980 -> n982 // "Expression" -> "."
+  n980 -> n983 // "Expression" -> "GetRight"
+  n980 -> n984 // "Expression" -> "("
+  n980 -> n985 // "Expression" -> ")"
+  n977 -> n986 // "Statement" -> ";"
+  n969 -> n987 // "Statement" -> "}"
+  n959 -> n988 // "IfStatement" -> "else"
+  n959 -> n989 // "IfStatement" -> "Statement"
+  n989 -> n990 // "Statement" -> "cont"
+  n989 -> n991 // "Statement" -> "="
+  n989 -> n992 // "Statement" -> "Expression"
+  n992 -> n993 // "Expression" -> "false"
+  n989 -> n994 // "Statement" -> ";"
+  n951 -> n995 // "IfStatement" -> "else"
+  n951 -> n996 // "IfStatement" -> "Statement"
+  n996 -> n997 // "Statement" -> "{"
+  n996 -> n998 // "Statement" -> "IfStatement"
+  n998 -> n999 // "IfStatement" -> "if"
+  n998 -> n1000 // "IfStatement" -> "("
+  n998 -> n1001 // "IfStatement" -> "Expression"
+  n1001 -> n1002 // "Expression" -> "is_root"
+  n998 -> n1003 // "IfStatement" -> ")"
+  n998 -> n1004 // "IfStatement" -> "IfStatement"
+  n1004 -> n1005 // "IfStatement" -> "if"
+  n1004 -> n1006 // "IfStatement" -> "("
+  n1004 -> n1007 // "IfStatement" -> "Expression"
+  n1007 -> n1008 // "Expression" -> "("
+  n1007 -> n1009 // "Expression" -> "Expression"
+  n1009 -> n1010 // "Expression" -> "!"
+  n1009 -> n1011 // "Expression" -> "Expression"
+  n1011 -> n1012 // "Expression" -> "current_node"
+  n1011 -> n1013 // "Expression" -> "."
+  n1011 -> n1014 // "Expression" -> "GetHas_Right"
+  n1011 -> n1015 // "Expression" -> "("
+  n1011 -> n1016 // "Expression" -> ")"
+  n1007 -> n1017 // "Expression" -> ")"
+  n1007 -> n1018 // "Expression" -> "&&"
+  n1007 -> n1019 // "Expression" -> "("
+  n1007 -> n1020 // "Expression" -> "Expression"
+  n1020 -> n1021 // "Expression" -> "!"
+  n1020 -> n1022 // "Expression" -> "Expression"
+  n1022 -> n1023 // "Expression" -> "current_node"
+  n1022 -> n1024 // "Expression" -> "."
+  n1022 -> n1025 // "Expression" -> "GetHas_Left"
+  n1022 -> n1026 // "Expression" -> "("
+  n1022 -> n1027 // "Expression" -> ")"
+  n1007 -> n1028 // "Expression" -> ")"
+  n1004 -> n1029 // "IfStatement" -> ")"
+  n1004 -> n1030 // "IfStatement" -> "Statement"
+  n1030 -> n1031 // "Statement" -> "ntb"
+  n1030 -> n1032 // "Statement" -> "="
+  n1030 -> n1033 // "Statement" -> "Expression"
+  n1033 -> n1034 // "Expression" -> "true"
+  n1030 -> n1035 // "Statement" -> ";"
+  n1004 -> n1036 // "IfStatement" -> "else"
+  n1004 -> n1037 // "IfStatement" -> "Statement"
+  n1037 -> n1038 // "Statement" -> "ntb"
+  n1037 -> n1039 // "Statement" -> "="
+  n1037 -> n1040 // "Statement" -> "Expression"
+  n1040 -> n1041 // "Expression" -> "this"
+  n1040 -> n1042 // "Expression" -> "."
+  n1040 -> n1043 // "Expression" -> "Remove"
+  n1040 -> n1044 // "Expression" -> "("
+  n1040 -> n1045 // "Expression" -> "Expression"
+  n1045 -> n1046 // "Expression" -> "parent_node"
+  n1040 -> n1047 // "Expression" -> ","
+  n1040 -> n1048 // "Expression" -> "Expression"
+  n1048 -> n1049 // "Expression" -> "current_node"
+  n1040 -> n1050 // "Expression" -> ")"
+  n1037 -> n1051 // "Statement" -> ";"
+  n998 -> n1052 // "IfStatement" -> "else"
+  n998 -> n1053 // "IfStatement" -> "Statement"
+  n1053 -> n1054 // "Statement" -> "ntb"
+  n1053 -> n1055 // "Statement" -> "="
+  n1053 -> n1056 // "Statement" -> "Expression"
+  n1056 -> n1057 // "Expression" -> "this"
+  n1056 -> n1058 // "Expression" -> "."
+  n1056 -> n1059 // "Expression" -> "Remove"
+  n1056 -> n1060 // "Expression" -> "("
+  n1056 -> n1061 // "Expression" -> "Expression"
+  n1061 -> n1062 // "Expression" -> "parent_node"
+  n1056 -> n1063 // "Expression" -> ","
+  n1056 -> n1064 // "Expression" -> "Expression"
+  n1064 -> n1065 // "Expression" -> "current_node"
+  n1056 -> n1066 // "Expression" -> ")"
+  n1053 -> n1067 // "Statement" -> ";"
+  n996 -> n1068 // "Statement" -> "Statement"
+  n1068 -> n1069 // "Statement" -> "found"
+  n1068 -> n1070 // "Statement" -> "="
+  n1068 -> n1071 // "Statement" -> "Expression"
+  n1071 -> n1072 // "Expression" -> "true"
+  n1068 -> n1073 // "Statement" -> ";"
+  n996 -> n1074 // "Statement" -> "Statement"
+  n1074 -> n1075 // "Statement" -> "cont"
+  n1074 -> n1076 // "Statement" -> "="
+  n1074 -> n1077 // "Statement" -> "Expression"
+  n1077 -> n1078 // "Expression" -> "false"
+  n1074 -> n1079 // "Statement" -> ";"
+  n996 -> n1080 // "Statement" -> "}"
+  n894 -> n1081 // "Statement" -> "Statement"
+  n1081 -> n1082 // "Statement" -> "is_root"
+  n1081 -> n1083 // "Statement" -> "="
+  n1081 -> n1084 // "Statement" -> "Expression"
+  n1084 -> n1085 // "Expression" -> "false"
+  n1081 -> n1086 // "Statement" -> ";"
+  n894 -> n1087 // "Statement" -> "}"
+  n821 -> n1088 // "NormalFunction" -> "return"
+  n821 -> n1089 // "NormalFunction" -> "Expression"
+  n1089 -> n1090 // "Expression" -> "found"
+  n821 -> n1091 // "NormalFunction" -> ";"
+  n821 -> n1092 // "NormalFunction" -> "}"
+  n312 -> n1093 // "Class" -> "NormalFunction"
+  n1093 -> n1094 // "NormalFunction" -> "public"
+  n1093 -> n1095 // "NormalFunction" -> "boolean"
+  n1093 -> n1096 // "NormalFunction" -> "Remove"
+  n1093 -> n1097 // "NormalFunction" -> "("
+  n1093 -> n1098 // "NormalFunction" -> "Tree"
+  n1093 -> n1099 // "NormalFunction" -> "p_node"
+  n1093 -> n1100 // "NormalFunction" -> ","
+  n1093 -> n1101 // "NormalFunction" -> "Tree"
+  n1093 -> n1102 // "NormalFunction" -> "c_node"
+  n1093 -> n1103 // "NormalFunction" -> ")"
+  n1093 -> n1104 // "NormalFunction" -> "{"
+  n1093 -> n1105 // "NormalFunction" -> "Variables"
+  n1105 -> n1106 // "Variables" -> "boolean"
+  n1105 -> n1107 // "Variables" -> "ntb"
+  n1105 -> n1108 // "Variables" -> ";"
+  n1093 -> n1109 // "NormalFunction" -> "Variables"
+  n1109 -> n1110 // "Variables" -> "int"
+  n1109 -> n1111 // "Variables" -> "auxkey1"
+  n1109 -> n1112 // "Variables" -> ";"
+  n1093 -> n1113 // "NormalFunction" -> "Variables"
+  n1113 -> n1114 // "Variables" -> "int"
+  n1113 -> n1115 // "Variables" -> "auxkey2"
+  n1113 -> n1116 // "Variables" -> ";"
+  n1093 -> n1117 // "NormalFunction" -> "IfStatement"
+  n1117 -> n1118 // "IfStatement" -> "if"
+  n1117 -> n1119 // "IfStatement" -> "("
+  n1117 -> n1120 // "IfStatement" -> "Expression"
+  n1120 -> n1121 // "Expression" -> "c_node"
+  n1120 -> n1122 // "Expression" -> "."
+  n1120 -> n1123 // "Expression" -> "GetHas_Left"
+  n1120 -> n1124 // "Expression" -> "("
+  n1120 -> n1125 // "Expression" -> ")"
+  n1117 -> n1126 // "IfStatement" -> ")"
+  n1117 -> n1127 // "IfStatement" -> "Statement"
+  n1127 -> n1128 // "Statement" -> "ntb"
+  n1127 -> n1129 // "Statement" -> "="
+  n1127 -> n1130 // "Statement" -> "Expression"
+  n1130 -> n1131 // "Expression" -> "this"
+  n1130 -> n1132 // "Expression" -> "."
+  n1130 -> n1133 // "Expression" -> "RemoveLeft"
+  n1130 -> n1134 // "Expression" -> "("
+  n1130 -> n1135 // "Expression" -> "Expression"
+  n1135 -> n1136 // "Expression" -> "p_node"
+  n1130 -> n1137 // "Expression" -> ","
+  n1130 -> n1138 // "Expression" -> "Expression"
+  n1138 -> n1139 // "Expression" -> "c_node"
+  n1130 -> n1140 // "Expression" -> ")"
+  n1127 -> n1141 // "Statement" -> ";"
+  n1117 -> n1142 // "IfStatement" -> "else"
+  n1117 -> n1143 // "IfStatement" -> "IfStatement"
+  n1143 -> n1144 // "IfStatement" -> "if"
+  n1143 -> n1145 // "IfStatement" -> "("
+  n1143 -> n1146 // "IfStatement" -> "Expression"
+  n1146 -> n1147 // "Expression" -> "c_node"
+  n1146 -> n1148 // "Expression" -> "."
+  n1146 -> n1149 // "Expression" -> "GetHas_Right"
+  n1146 -> n1150 // "Expression" -> "("
+  n1146 -> n1151 // "Expression" -> ")"
+  n1143 -> n1152 // "IfStatement" -> ")"
+  n1143 -> n1153 // "IfStatement" -> "Statement"
+  n1153 -> n1154 // "Statement" -> "ntb"
+  n1153 -> n1155 // "Statement" -> "="
+  n1153 -> n1156 // "Statement" -> "Expression"
+  n1156 -> n1157 // "Expression" -> "this"
+  n1156 -> n1158 // "Expression" -> "."
+  n1156 -> n1159 // "Expression" -> "RemoveRight"
+  n1156 -> n1160 // "Expression" -> "("
+  n1156 -> n1161 // "Expression" -> "Expression"
+  n1161 -> n1162 // "Expression" -> "p_node"
+  n1156 -> n1163 // "Expression" -> ","
+  n1156 -> n1164 // "Expression" -> "Expression"
+  n1164 -> n1165 // "Expression" -> "c_node"
+  n1156 -> n1166 // "Expression" -> ")"
+  n1153 -> n1167 // "Statement" -> ";"
+  n1143 -> n1168 // "IfStatement" -> "else"
+  n1143 -> n1169 // "IfStatement" -> "Statement"
+  n1169 -> n1170 // "Statement" -> "{"
+  n1169 -> n1171 // "Statement" -> "Statement"
+  n1171 -> n1172 // "Statement" -> "auxkey1"
+  n1171 -> n1173 // "Statement" -> "="
+  n1171 -> n1174 // "Statement" -> "Expression"
+  n1174 -> n1175 // "Expression" -> "c_node"
+  n1174 -> n1176 // "Expression" -> "."
+  n1174 -> n1177 // "Expression" -> "GetKey"
+  n1174 -> n1178 // "Expression" -> "("
+  n1174 -> n1179 // "Expression" -> ")"
+  n1171 -> n1180 // "Statement" -> ";"
+  n1169 -> n1181 // "Statement" -> "Statement"
+  n1181 -> n1182 // "Statement" -> "auxkey2"
+  n1181 -> n1183 // "Statement" -> "="
+  n1181 -> n1184 // "Statement" -> "Expression"
+  n1184 -> n1185 // "Expression" -> "("
+  n1184 -> n1186 // "Expression" -> "Expression"
+  n1186 -> n1187 // "Expression" -> "p_node"
+  n1186 -> n1188 // "Expression" -> "."
+  n1186 -> n1189 // "Expression" -> "GetLeft"
+  n1186 -> n1190 // "Expression" -> "("
+  n1186 -> n1191 // "Expression" -> ")"
+  n1184 -> n1192 // "Expression" -> ")"
+  n1184 -> n1193 // "Expression" -> "."
+  n1184 -> n1194 // "Expression" -> "GetKey"
+  n1184 -> n1195 // "Expression" -> "("
+  n1184 -> n1196 // "Expression" -> ")"
+  n1181 -> n1197 // "Statement" -> ";"
+  n1169 -> n1198 // "Statement" -> "IfStatement"
+  n1198 -> n1199 // "IfStatement" -> "if"
+  n1198 -> n1200 // "IfStatement" -> "("
+  n1198 -> n1201 // "IfStatement" -> "Expression"
+  n1201 -> n1202 // "Expression" -> "this"
+  n1201 -> n1203 // "Expression" -> "."
+  n1201 -> n1204 // "Expression" -> "Compare"
+  n1201 -> n1205 // "Expression" -> "("
+  n1201 -> n1206 // "Expression" -> "Expression"
+  n1206 -> n1207 // "Expression" -> "auxkey1"
+  n1201 -> n1208 // "Expression" -> ","
+  n1201 -> n1209 // "Expression" -> "Expression"
+  n1209 -> n1210 // "Expression" -> "auxkey2"
+  n1201 -> n1211 // "Expression" -> ")"
+  n1198 -> n1212 // "IfStatement" -> ")"
+  n1198 -> n1213 // "IfStatement" -> "Statement"
+  n1213 -> n1214 // "Statement" -> "{"
+  n1213 -> n1215 // "Statement" -> "Statement"
+  n1215 -> n1216 // "Statement" -> "ntb"
+  n1215 -> n1217 // "Statement" -> "="
+  n1215 -> n1218 // "Statement" -> "Expression"
+  n1218 -> n1219 // "Expression" -> "p_node"
+  n1218 -> n1220 // "Expression" -> "."
+  n1218 -> n1221 // "Expression" -> "SetLeft"
+  n1218 -> n1222 // "Expression" -> "("
+  n1218 -> n1223 // "Expression" -> "Expression"
+  n1223 -> n1224 // "Expression" -> "my_null"
+  n1218 -> n1225 // "Expression" -> ")"
+  n1215 -> n1226 // "Statement" -> ";"
+  n1213 -> n1227 // "Statement" -> "Statement"
+  n1227 -> n1228 // "Statement" -> "ntb"
+  n1227 -> n1229 // "Statement" -> "="
+  n1227 -> n1230 // "Statement" -> "Expression"
+  n1230 -> n1231 // "Expression" -> "p_node"
+  n1230 -> n1232 // "Expression" -> "."
+  n1230 -> n1233 // "Expression" -> "SetHas_Left"
+  n1230 -> n1234 // "Expression" -> "("
+  n1230 -> n1235 // "Expression" -> "Expression"
+  n1235 -> n1236 // "Expression" -> "false"
+  n1230 -> n1237 // "Expression" -> ")"
+  n1227 -> n1238 // "Statement" -> ";"
+  n1213 -> n1239 // "Statement" -> "}"
+  n1198 -> n1240 // "IfStatement" -> "else"
+  n1198 -> n1241 // "IfStatement" -> "Statement"
+  n1241 -> n1242 // "Statement" -> "{"
+  n1241 -> n1243 // "Statement" -> "Statement"
+  n1243 -> n1244 // "Statement" -> "ntb"
+  n1243 -> n1245 // "Statement" -> "="
+  n1243 -> n1246 // "Statement" -> "Expression"
+  n1246 -> n1247 // "Expression" -> "p_node"
+  n1246 -> n1248 // "Expression" -> "."
+  n1246 -> n1249 // "Expression" -> "SetRight"
+  n1246 -> n1250 // "Expression" -> "("
+  n1246 -> n1251 // "Expression" -> "Expression"
+  n1251 -> n1252 // "Expression" -> "my_null"
+  n1246 -> n1253 // "Expression" -> ")"
+  n1243 -> n1254 // "Statement" -> ";"
+  n1241 -> n1255 // "Statement" -> "Statement"
+  n1255 -> n1256 // "Statement" -> "ntb"
+  n1255 -> n1257 // "Statement" -> "="
+  n1255 -> n1258 // "Statement" -> "Expression"
+  n1258 -> n1259 // "Expression" -> "p_node"
+  n1258 -> n1260 // "Expression" -> "."
+  n1258 -> n1261 // "Expression" -> "SetHas_Right"
+  n1258 -> n1262 // "Expression" -> "("
+  n1258 -> n1263 // "Expression" -> "Expression"
+  n1263 -> n1264 // "Expression" -> "false"
+  n1258 -> n1265 // "Expression" -> ")"
+  n1255 -> n1266 // "Statement" -> ";"
+  n1241 -> n1267 // "Statement" -> "}"
+  n1169 -> n1268 // "Statement" -> "}"
+  n1093 -> n1269 // "NormalFunction" -> "return"
+  n1093 -> n1270 // "NormalFunction" -> "Expression"
+  n1270 -> n1271 // "Expression" -> "true"
+  n1093 -> n1272 // "NormalFunction" -> ";"
+  n1093 -> n1273 // "NormalFunction" -> "}"
+  n312 -> n1274 // "Class" -> "NormalFunction"
+  n1274 -> n1275 // "NormalFunction" -> "public"
+  n1274 -> n1276 // "NormalFunction" -> "boolean"
+  n1274 -> n1277 // "NormalFunction" -> "RemoveRight"
+  n1274 -> n1278 // "NormalFunction" -> "("
+  n1274 -> n1279 // "NormalFunction" -> "Tree"
+  n1274 -> n1280 // "NormalFunction" -> "p_node"
+  n1274 -> n1281 // "NormalFunction" -> ","
+  n1274 -> n1282 // "NormalFunction" -> "Tree"
+  n1274 -> n1283 // "NormalFunction" -> "c_node"
+  n1274 -> n1284 // "NormalFunction" -> ")"
+  n1274 -> n1285 // "NormalFunction" -> "{"
+  n1274 -> n1286 // "NormalFunction" -> "Variables"
+  n1286 -> n1287 // "Variables" -> "boolean"
+  n1286 -> n1288 // "Variables" -> "ntb"
+  n1286 -> n1289 // "Variables" -> ";"
+  n1274 -> n1290 // "NormalFunction" -> "WhileStatement"
+  n1290 -> n1291 // "WhileStatement" -> "while"
+  n1290 -> n1292 // "WhileStatement" -> "("
+  n1290 -> n1293 // "WhileStatement" -> "Expression"
+  n1293 -> n1294 // "Expression" -> "c_node"
+  n1293 -> n1295 // "Expression" -> "."
+  n1293 -> n1296 // "Expression" -> "GetHas_Right"
+  n1293 -> n1297 // "Expression" -> "("
+  n1293 -> n1298 // "Expression" -> ")"
+  n1290 -> n1299 // "WhileStatement" -> ")"
+  n1290 -> n1300 // "WhileStatement" -> "Statement"
+  n1300 -> n1301 // "Statement" -> "{"
+  n1300 -> n1302 // "Statement" -> "Statement"
+  n1302 -> n1303 // "Statement" -> "ntb"
+  n1302 -> n1304 // "Statement" -> "="
+  n1302 -> n1305 // "Statement" -> "Expression"
+  n1305 -> n1306 // "Expression" -> "c_node"
+  n1305 -> n1307 // "Expression" -> "."
+  n1305 -> n1308 // "Expression" -> "SetKey"
+  n1305 -> n1309 // "Expression" -> "("
+  n1305 -> n1310 // "Expression" -> "Expression"
+  n1310 -> n1311 // "Expression" -> "("
+  n1310 -> n1312 // "Expression" -> "Expression"
+  n1312 -> n1313 // "Expression" -> "c_node"
+  n1312 -> n1314 // "Expression" -> "."
+  n1312 -> n1315 // "Expression" -> "GetRight"
+  n1312 -> n1316 // "Expression" -> "("
+  n1312 -> n1317 // "Expression" -> ")"
+  n1310 -> n1318 // "Expression" -> ")"
+  n1310 -> n1319 // "Expression" -> "."
+  n1310 -> n1320 // "Expression" -> "GetKey"
+  n1310 -> n1321 // "Expression" -> "("
+  n1310 -> n1322 // "Expression" -> ")"
+  n1305 -> n1323 // "Expression" -> ")"
+  n1302 -> n1324 // "Statement" -> ";"
+  n1300 -> n1325 // "Statement" -> "Statement"
+  n1325 -> n1326 // "Statement" -> "p_node"
+  n1325 -> n1327 // "Statement" -> "="
+  n1325 -> n1328 // "Statement" -> "Expression"
+  n1328 -> n1329 // "Expression" -> "c_node"
+  n1325 -> n1330 // "Statement" -> ";"
+  n1300 -> n1331 // "Statement" -> "Statement"
+  n1331 -> n1332 // "Statement" -> "c_node"
+  n1331 -> n1333 // "Statement" -> "="
+  n1331 -> n1334 // "Statement" -> "Expression"
+  n1334 -> n1335 // "Expression" -> "c_node"
+  n1334 -> n1336 // "Expression" -> "."
+  n1334 -> n1337 // "Expression" -> "GetRight"
+  n1334 -> n1338 // "Expression" -> "("
+  n1334 -> n1339 // "Expression" -> ")"
+  n1331 -> n1340 // "Statement" -> ";"
+  n1300 -> n1341 // "Statement" -> "}"
+  n1274 -> n1342 // "NormalFunction" -> "Statement"
+  n1342 -> n1343 // "Statement" -> "ntb"
+  n1342 -> n1344 // "Statement" -> "="
+  n1342 -> n1345 // "Statement" -> "Expression"
+  n1345 -> n1346 // "Expression" -> "p_node"
+  n1345 -> n1347 // "Expression" -> "."
+  n1345 -> n1348 // "Expression" -> "SetRight"
+  n1345 -> n1349 // "Expression" -> "("
+  n1345 -> n1350 // "Expression" -> "Expression"
+  n1350 -> n1351 // "Expression" -> "my_null"
+  n1345 -> n1352 // "Expression" -> ")"
+  n1342 -> n1353 // "Statement" -> ";"
+  n1274 -> n1354 // "NormalFunction" -> "Statement"
+  n1354 -> n1355 // "Statement" -> "ntb"
+  n1354 -> n1356 // "Statement" -> "="
+  n1354 -> n1357 // "Statement" -> "Expression"
+  n1357 -> n1358 // "Expression" -> "p_node"
+  n1357 -> n1359 // "Expression" -> "."
+  n1357 -> n1360 // "Expression" -> "SetHas_Right"
+  n1357 -> n1361 // "Expression" -> "("
+  n1357 -> n1362 // "Expression" -> "Expression"
+  n1362 -> n1363 // "Expression" -> "false"
+  n1357 -> n1364 // "Expression" -> ")"
+  n1354 -> n1365 // "Statement" -> ";"
+  n1274 -> n1366 // "NormalFunction" -> "return"
+  n1274 -> n1367 // "NormalFunction" -> "Expression"
+  n1367 -> n1368 // "Expression" -> "true"
+  n1274 -> n1369 // "NormalFunction" -> ";"
+  n1274 -> n1370 // "NormalFunction" -> "}"
+  n312 -> n1371 // "Class" -> "NormalFunction"
+  n1371 -> n1372 // "NormalFunction" -> "public"
+  n1371 -> n1373 // "NormalFunction" -> "boolean"
+  n1371 -> n1374 // "NormalFunction" -> "RemoveLeft"
+  n1371 -> n1375 // "NormalFunction" -> "("
+  n1371 -> n1376 // "NormalFunction" -> "Tree"
+  n1371 -> n1377 // "NormalFunction" -> "p_node"
+  n1371 -> n1378 // "NormalFunction" -> ","
+  n1371 -> n1379 // "NormalFunction" -> "Tree"
+  n1371 -> n1380 // "NormalFunction" -> "c_node"
+  n1371 -> n1381 // "NormalFunction" -> ")"
+  n1371 -> n1382 // "NormalFunction" -> "{"
+  n1371 -> n1383 // "NormalFunction" -> "Variables"
+  n1383 -> n1384 // "Variables" -> "boolean"
+  n1383 -> n1385 // "Variables" -> "ntb"
+  n1383 -> n1386 // "Variables" -> ";"
+  n1371 -> n1387 // "NormalFunction" -> "WhileStatement"
+  n1387 -> n1388 // "WhileStatement" -> "while"
+  n1387 -> n1389 // "WhileStatement" -> "("
+  n1387 -> n1390 // "WhileStatement" -> "Expression"
+  n1390 -> n1391 // "Expression" -> "c_node"
+  n1390 -> n1392 // "Expression" -> "."
+  n1390 -> n1393 // "Expression" -> "GetHas_Left"
+  n1390 -> n1394 // "Expression" -> "("
+  n1390 -> n1395 // "Expression" -> ")"
+  n1387 -> n1396 // "WhileStatement" -> ")"
+  n1387 -> n1397 // "WhileStatement" -> "Statement"
+  n1397 -> n1398 // "Statement" -> "{"
+  n1397 -> n1399 // "Statement" -> "Statement"
+  n1399 -> n1400 // "Statement" -> "ntb"
+  n1399 -> n1401 // "Statement" -> "="
+  n1399 -> n1402 // "Statement" -> "Expression"
+  n1402 -> n1403 // "Expression" -> "c_node"
+  n1402 -> n1404 // "Expression" -> "."
+  n1402 -> n1405 // "Expression" -> "SetKey"
+  n1402 -> n1406 // "Expression" -> "("
+  n1402 -> n1407 // "Expression" -> "Expression"
+  n1407 -> n1408 // "Expression" -> "("
+  n1407 -> n1409 // "Expression" -> "Expression"
+  n1409 -> n1410 // "Expression" -> "c_node"
+  n1409 -> n1411 // "Expression" -> "."
+  n1409 -> n1412 // "Expression" -> "GetLeft"
+  n1409 -> n1413 // "Expression" -> "("
+  n1409 -> n1414 // "Expression" -> ")"
+  n1407 -> n1415 // "Expression" -> ")"
+  n1407 -> n1416 // "Expression" -> "."
+  n1407 -> n1417 // "Expression" -> "GetKey"
+  n1407 -> n1418 // "Expression" -> "("
+  n1407 -> n1419 // "Expression" -> ")"
+  n1402 -> n1420 // "Expression" -> ")"
+  n1399 -> n1421 // "Statement" -> ";"
+  n1397 -> n1422 // "Statement" -> "Statement"
+  n1422 -> n1423 // "Statement" -> "p_node"
+  n1422 -> n1424 // "Statement" -> "="
+  n1422 -> n1425 // "Statement" -> "Expression"
+  n1425 -> n1426 // "Expression" -> "c_node"
+  n1422 -> n1427 // "Statement" -> ";"
+  n1397 -> n1428 // "Statement" -> "Statement"
+  n1428 -> n1429 // "Statement" -> "c_node"
+  n1428 -> n1430 // "Statement" -> "="
+  n1428 -> n1431 // "Statement" -> "Expression"
+  n1431 -> n1432 // "Expression" -> "c_node"
+  n1431 -> n1433 // "Expression" -> "."
+  n1431 -> n1434 // "Expression" -> "GetLeft"
+  n1431 -> n1435 // "Expression" -> "("
+  n1431 -> n1436 // "Expression" -> ")"
+  n1428 -> n1437 // "Statement" -> ";"
+  n1397 -> n1438 // "Statement" -> "}"
+  n1371 -> n1439 // "NormalFunction" -> "Statement"
+  n1439 -> n1440 // "Statement" -> "ntb"
+  n1439 -> n1441 // "Statement" -> "="
+  n1439 -> n1442 // "Statement" -> "Expression"
+  n1442 -> n1443 // "Expression" -> "p_node"
+  n1442 -> n1444 // "Expression" -> "."
+  n1442 -> n1445 // "Expression" -> "SetLeft"
+  n1442 -> n1446 // "Expression" -> "("
+  n1442 -> n1447 // "Expression" -> "Expression"
+  n1447 -> n1448 // "Expression" -> "my_null"
+  n1442 -> n1449 // "Expression" -> ")"
+  n1439 -> n1450 // "Statement" -> ";"
+  n1371 -> n1451 // "NormalFunction" -> "Statement"
+  n1451 -> n1452 // "Statement" -> "ntb"
+  n1451 -> n1453 // "Statement" -> "="
+  n1451 -> n1454 // "Statement" -> "Expression"
+  n1454 -> n1455 // "Expression" -> "p_node"
+  n1454 -> n1456 // "Expression" -> "."
+  n1454 -> n1457 // "Expression" -> "SetHas_Left"
+  n1454 -> n1458 // "Expression" -> "("
+  n1454 -> n1459 // "Expression" -> "Expression"
+  n1459 -> n1460 // "Expression" -> "false"
+  n1454 -> n1461 // "Expression" -> ")"
+  n1451 -> n1462 // "Statement" -> ";"
+  n1371 -> n1463 // "NormalFunction" -> "return"
+  n1371 -> n1464 // "NormalFunction" -> "Expression"
+  n1464 -> n1465 // "Expression" -> "true"
+  n1371 -> n1466 // "NormalFunction" -> ";"
+  n1371 -> n1467 // "NormalFunction" -> "}"
+  n312 -> n1468 // "Class" -> "NormalFunction"
+  n1468 -> n1469 // "NormalFunction" -> "public"
+  n1468 -> n1470 // "NormalFunction" -> "int"
+  n1468 -> n1471 // "NormalFunction" -> "Search"
+  n1468 -> n1472 // "NormalFunction" -> "("
+  n1468 -> n1473 // "NormalFunction" -> "int"
+  n1468 -> n1474 // "NormalFunction" -> "v_key"
+  n1468 -> n1475 // "NormalFunction" -> ")"
+  n1468 -> n1476 // "NormalFunction" -> "{"
+  n1468 -> n1477 // "NormalFunction" -> "Variables"
+  n1477 -> n1478 // "Variables" -> "boolean"
+  n1477 -> n1479 // "Variables" -> "cont"
+  n1477 -> n1480 // "Variables" -> ";"
+  n1468 -> n1481 // "NormalFunction" -> "Variables"
+  n1481 -> n1482 // "Variables" -> "int"
+  n1481 -> n1483 // "Variables" -> "ifound"
+  n1481 -> n1484 // "Variables" -> ";"
+  n1468 -> n1485 // "NormalFunction" -> "Variables"
+  n1485 -> n1486 // "Variables" -> "Tree"
+  n1485 -> n1487 // "Variables" -> "current_node"
+  n1485 -> n1488 // "Variables" -> ";"
+  n1468 -> n1489 // "NormalFunction" -> "Variables"
+  n1489 -> n1490 // "Variables" -> "int"
+  n1489 -> n1491 // "Variables" -> "key_aux"
+  n1489 -> n1492 // "Variables" -> ";"
+  n1468 -> n1493 // "NormalFunction" -> "Statement"
+  n1493 -> n1494 // "Statement" -> "current_node"
+  n1493 -> n1495 // "Statement" -> "="
+  n1493 -> n1496 // "Statement" -> "Expression"
+  n1496 -> n1497 // "Expression" -> "this"
+  n1493 -> n1498 // "Statement" -> ";"
+  n1468 -> n1499 // "NormalFunction" -> "Statement"
+  n1499 -> n1500 // "Statement" -> "cont"
+  n1499 -> n1501 // "Statement" -> "="
+  n1499 -> n1502 // "Statement" -> "Expression"
+  n1502 -> n1503 // "Expression" -> "true"
+  n1499 -> n1504 // "Statement" -> ";"
+  n1468 -> n1505 // "NormalFunction" -> "Statement"
+  n1505 -> n1506 // "Statement" -> "ifound"
+  n1505 -> n1507 // "Statement" -> "="
+  n1505 -> n1508 // "Statement" -> "Expression"
+  n1508 -> n1509 // "Expression" -> "0"
+  n1505 -> n1510 // "Statement" -> ";"
+  n1468 -> n1511 // "NormalFunction" -> "WhileStatement"
+  n1511 -> n1512 // "WhileStatement" -> "while"
+  n1511 -> n1513 // "WhileStatement" -> "("
+  n1511 -> n1514 // "WhileStatement" -> "Expression"
+  n1514 -> n1515 // "Expression" -> "cont"
+  n1511 -> n1516 // "WhileStatement" -> ")"
+  n1511 -> n1517 // "WhileStatement" -> "Statement"
+  n1517 -> n1518 // "Statement" -> "{"
+  n1517 -> n1519 // "Statement" -> "Statement"
+  n1519 -> n1520 // "Statement" -> "key_aux"
+  n1519 -> n1521 // "Statement" -> "="
+  n1519 -> n1522 // "Statement" -> "Expression"
+  n1522 -> n1523 // "Expression" -> "current_node"
+  n1522 -> n1524 // "Expression" -> "."
+  n1522 -> n1525 // "Expression" -> "GetKey"
+  n1522 -> n1526 // "Expression" -> "("
+  n1522 -> n1527 // "Expression" -> ")"
+  n1519 -> n1528 // "Statement" -> ";"
+  n1517 -> n1529 // "Statement" -> "IfStatement"
+  n1529 -> n1530 // "IfStatement" -> "if"
+  n1529 -> n1531 // "IfStatement" -> "("
+  n1529 -> n1532 // "IfStatement" -> "Expression"
+  n1532 -> n1533 // "Expression" -> "v_key"
+  n1532 -> n1534 // "Expression" -> "<"
+  n1532 -> n1535 // "Expression" -> "key_aux"
+  n1529 -> n1536 // "IfStatement" -> ")"
+  n1529 -> n1537 // "IfStatement" -> "IfStatement"
+  n1537 -> n1538 // "IfStatement" -> "if"
+  n1537 -> n1539 // "IfStatement" -> "("
+  n1537 -> n1540 // "IfStatement" -> "Expression"
+  n1540 -> n1541 // "Expression" -> "current_node"
+  n1540 -> n1542 // "Expression" -> "."
+  n1540 -> n1543 // "Expression" -> "GetHas_Left"
+  n1540 -> n1544 // "Expression" -> "("
+  n1540 -> n1545 // "Expression" -> ")"
+  n1537 -> n1546 // "IfStatement" -> ")"
+  n1537 -> n1547 // "IfStatement" -> "Statement"
+  n1547 -> n1548 // "Statement" -> "current_node"
+  n1547 -> n1549 // "Statement" -> "="
+  n1547 -> n1550 // "Statement" -> "Expression"
+  n1550 -> n1551 // "Expression" -> "current_node"
+  n1550 -> n1552 // "Expression" -> "."
+  n1550 -> n1553 // "Expression" -> "GetLeft"
+  n1550 -> n1554 // "Expression" -> "("
+  n1550 -> n1555 // "Expression" -> ")"
+  n1547 -> n1556 // "Statement" -> ";"
+  n1537 -> n1557 // "IfStatement" -> "else"
+  n1537 -> n1558 // "IfStatement" -> "Statement"
+  n1558 -> n1559 // "Statement" -> "cont"
+  n1558 -> n1560 // "Statement" -> "="
+  n1558 -> n1561 // "Statement" -> "Expression"
+  n1561 -> n1562 // "Expression" -> "false"
+  n1558 -> n1563 // "Statement" -> ";"
+  n1529 -> n1564 // "IfStatement" -> "else"
+  n1529 -> n1565 // "IfStatement" -> "IfStatement"
+  n1565 -> n1566 // "IfStatement" -> "if"
+  n1565 -> n1567 // "IfStatement" -> "("
+  n1565 -> n1568 // "IfStatement" -> "Expression"
+  n1568 -> n1569 // "Expression" -> "key_aux"
+  n1568 -> n1570 // "Expression" -> "<"
+  n1568 -> n1571 // "Expression" -> "v_key"
+  n1565 -> n1572 // "IfStatement" -> ")"
+  n1565 -> n1573 // "IfStatement" -> "IfStatement"
+  n1573 -> n1574 // "IfStatement" -> "if"
+  n1573 -> n1575 // "IfStatement" -> "("
+  n1573 -> n1576 // "IfStatement" -> "Expression"
+  n1576 -> n1577 // "Expression" -> "current_node"
+  n1576 -> n1578 // "Expression" -> "."
+  n1576 -> n1579 // "Expression" -> "GetHas_Right"
+  n1576 -> n1580 // "Expression" -> "("
+  n1576 -> n1581 // "Expression" -> ")"
+  n1573 -> n1582 // "IfStatement" -> ")"
+  n1573 -> n1583 // "IfStatement" -> "Statement"
+  n1583 -> n1584 // "Statement" -> "current_node"
+  n1583 -> n1585 // "Statement" -> "="
+  n1583 -> n1586 // "Statement" -> "Expression"
+  n1586 -> n1587 // "Expression" -> "current_node"
+  n1586 -> n1588 // "Expression" -> "."
+  n1586 -> n1589 // "Expression" -> "GetRight"
+  n1586 -> n1590 // "Expression" -> "("
+  n1586 -> n1591 // "Expression" -> ")"
+  n1583 -> n1592 // "Statement" -> ";"
+  n1573 -> n1593 // "IfStatement" -> "else"
+  n1573 -> n1594 // "IfStatement" -> "Statement"
+  n1594 -> n1595 // "Statement" -> "cont"
+  n1594 -> n1596 // "Statement" -> "="
+  n1594 -> n1597 // "Statement" -> "Expression"
+  n1597 -> n1598 // "Expression" -> "false"
+  n1594 -> n1599 // "Statement" -> ";"
+  n1565 -> n1600 // "IfStatement" -> "else"
+  n1565 -> n1601 // "IfStatement" -> "Statement"
+  n1601 -> n1602 // "Statement" -> "{"
+  n1601 -> n1603 // "Statement" -> "Statement"
+  n1603 -> n1604 // "Statement" -> "ifound"
+  n1603 -> n1605 // "Statement" -> "="
+  n1603 -> n1606 // "Statement" -> "Expression"
+  n1606 -> n1607 // "Expression" -> "1"
+  n1603 -> n1608 // "Statement" -> ";"
+  n1601 -> n1609 // "Statement" -> "Statement"
+  n1609 -> n1610 // "Statement" -> "cont"
+  n1609 -> n1611 // "Statement" -> "="
+  n1609 -> n1612 // "Statement" -> "Expression"
+  n1612 -> n1613 // "Expression" -> "false"
+  n1609 -> n1614 // "Statement" -> ";"
+  n1601 -> n1615 // "Statement" -> "}"
+  n1517 -> n1616 // "Statement" -> "}"
+  n1468 -> n1617 // "NormalFunction" -> "return"
+  n1468 -> n1618 // "NormalFunction" -> "Expression"
+  n1618 -> n1619 // "Expression" -> "ifound"
+  n1468 -> n1620 // "NormalFunction" -> ";"
+  n1468 -> n1621 // "NormalFunction" -> "}"
+  n312 -> n1622 // "Class" -> "NormalFunction"
+  n1622 -> n1623 // "NormalFunction" -> "public"
+  n1622 -> n1624 // "NormalFunction" -> "boolean"
+  n1622 -> n1625 // "NormalFunction" -> "Print"
+  n1622 -> n1626 // "NormalFunction" -> "("
+  n1622 -> n1627 // "NormalFunction" -> ")"
+  n1622 -> n1628 // "NormalFunction" -> "{"
+  n1622 -> n1629 // "NormalFunction" -> "Variables"
+  n1629 -> n1630 // "Variables" -> "Tree"
+  n1629 -> n1631 // "Variables" -> "current_node"
+  n1629 -> n1632 // "Variables" -> ";"
+  n1622 -> n1633 // "NormalFunction" -> "Variables"
+  n1633 -> n1634 // "Variables" -> "boolean"
+  n1633 -> n1635 // "Variables" -> "ntb"
+  n1633 -> n1636 // "Variables" -> ";"
+  n1622 -> n1637 // "NormalFunction" -> "Statement"
+  n1637 -> n1638 // "Statement" -> "current_node"
+  n1637 -> n1639 // "Statement" -> "="
+  n1637 -> n1640 // "Statement" -> "Expression"
+  n1640 -> n1641 // "Expression" -> "this"
+  n1637 -> n1642 // "Statement" -> ";"
+  n1622 -> n1643 // "NormalFunction" -> "Statement"
+  n1643 -> n1644 // "Statement" -> "ntb"
+  n1643 -> n1645 // "Statement" -> "="
+  n1643 -> n1646 // "Statement" -> "Expression"
+  n1646 -> n1647 // "Expression" -> "this"
+  n1646 -> n1648 // "Expression" -> "."
+  n1646 -> n1649 // "Expression" -> "RecPrint"
+  n1646 -> n1650 // "Expression" -> "("
+  n1646 -> n1651 // "Expression" -> "Expression"
+  n1651 -> n1652 // "Expression" -> "current_node"
+  n1646 -> n1653 // "Expression" -> ")"
+  n1643 -> n1654 // "Statement" -> ";"
+  n1622 -> n1655 // "NormalFunction" -> "return"
+  n1622 -> n1656 // "NormalFunction" -> "Expression"
+  n1656 -> n1657 // "Expression" -> "true"
+  n1622 -> n1658 // "NormalFunction" -> ";"
+  n1622 -> n1659 // "NormalFunction" -> "}"
+  n312 -> n1660 // "Class" -> "NormalFunction"
+  n1660 -> n1661 // "NormalFunction" -> "public"
+  n1660 -> n1662 // "NormalFunction" -> "boolean"
+  n1660 -> n1663 // "NormalFunction" -> "RecPrint"
+  n1660 -> n1664 // "NormalFunction" -> "("
+  n1660 -> n1665 // "NormalFunction" -> "Tree"
+  n1660 -> n1666 // "NormalFunction" -> "node"
+  n1660 -> n1667 // "NormalFunction" -> ")"
+  n1660 -> n1668 // "NormalFunction" -> "{"
+  n1660 -> n1669 // "NormalFunction" -> "Variables"
+  n1669 -> n1670 // "Variables" -> "boolean"
+  n1669 -> n1671 // "Variables" -> "ntb"
+  n1669 -> n1672 // "Variables" -> ";"
+  n1660 -> n1673 // "NormalFunction" -> "IfStatement"
+  n1673 -> n1674 // "IfStatement" -> "if"
+  n1673 -> n1675 // "IfStatement" -> "("
+  n1673 -> n1676 // "IfStatement" -> "Expression"
+  n1676 -> n1677 // "Expression" -> "node"
+  n1676 -> n1678 // "Expression" -> "."
+  n1676 -> n1679 // "Expression" -> "GetHas_Left"
+  n1676 -> n1680 // "Expression" -> "("
+  n1676 -> n1681 // "Expression" -> ")"
+  n1673 -> n1682 // "IfStatement" -> ")"
+  n1673 -> n1683 // "IfStatement" -> "Statement"
+  n1683 -> n1684 // "Statement" -> "{"
+  n1683 -> n1685 // "Statement" -> "Statement"
+  n1685 -> n1686 // "Statement" -> "ntb"
+  n1685 -> n1687 // "Statement" -> "="
+  n1685 -> n1688 // "Statement" -> "Expression"
+  n1688 -> n1689 // "Expression" -> "this"
+  n1688 -> n1690 // "Expression" -> "."
+  n1688 -> n1691 // "Expression" -> "RecPrint"
+  n1688 -> n1692 // "Expression" -> "("
+  n1688 -> n1693 // "Expression" -> "Expression"
+  n1693 -> n1694 // "Expression" -> "node"
+  n1693 -> n1695 // "Expression" -> "."
+  n1693 -> n1696 // "Expression" -> "GetLeft"
+  n1693 -> n1697 // "Expression" -> "("
+  n1693 -> n1698 // "Expression" -> ")"
+  n1688 -> n1699 // "Expression" -> ")"
+  n1685 -> n1700 // "Statement" -> ";"
+  n1683 -> n1701 // "Statement" -> "}"
+  n1673 -> n1702 // "IfStatement" -> "else"
+  n1673 -> n1703 // "IfStatement" -> "Statement"
+  n1703 -> n1704 // "Statement" -> "ntb"
+  n1703 -> n1705 // "Statement" -> "="
+  n1703 -> n1706 // "Statement" -> "Expression"
+  n1706 -> n1707 // "Expression" -> "true"
+  n1703 -> n1708 // "Statement" -> ";"
+  n1660 -> n1709 // "NormalFunction" -> "Statement"
+  n1709 -> n1710 // "Statement" -> "System.out."
+  n1709 -> n1711 // "Statement" -> "println"
+  n1709 -> n1712 // "Statement" -> "("
+  n1709 -> n1713 // "Statement" -> "Expression"
+  n1713 -> n1714 // "Expression" -> "node"
+  n1713 -> n1715 // "Expression" -> "."
+  n1713 -> n1716 // "Expression" -> "GetKey"
+  n1713 -> n1717 // "Expression" -> "("
+  n1713 -> n1718 // "Expression" -> ")"
+  n1709 -> n1719 // "Statement" -> ")"
+  n1709 -> n1720 // "Statement" -> ";"
+  n1660 -> n1721 // "NormalFunction" -> "IfStatement"
+  n1721 -> n1722 // "IfStatement" -> "if"
+  n1721 -> n1723 // "IfStatement" -> "("
+  n1721 -> n1724 // "IfStatement" -> "Expression"
+  n1724 -> n1725 // "Expression" -> "node"
+  n1724 -> n1726 // "Expression" -> "."
+  n1724 -> n1727 // "Expression" -> "GetHas_Right"
+  n1724 -> n1728 // "Expression" -> "("
+  n1724 -> n1729 // "Expression" -> ")"
+  n1721 -> n1730 // "IfStatement" -> ")"
+  n1721 -> n1731 // "IfStatement" -> "Statement"
+  n1731 -> n1732 // "Statement" -> "{"
+  n1731 -> n1733 // "Statement" -> "Statement"
+  n1733 -> n1734 // "Statement" -> "ntb"
+  n1733 -> n1735 // "Statement" -> "="
+  n1733 -> n1736 // "Statement" -> "Expression"
+  n1736 -> n1737 // "Expression" -> "this"
+  n1736 -> n1738 // "Expression" -> "."
+  n1736 -> n1739 // "Expression" -> "RecPrint"
+  n1736 -> n1740 // "Expression" -> "("
+  n1736 -> n1741 // "Expression" -> "Expression"
+  n1741 -> n1742 // "Expression" -> "node"
+  n1741 -> n1743 // "Expression" -> "."
+  n1741 -> n1744 // "Expression" -> "GetRight"
+  n1741 -> n1745 // "Expression" -> "("
+  n1741 -> n1746 // "Expression" -> ")"
+  n1736 -> n1747 // "Expression" -> ")"
+  n1733 -> n1748 // "Statement" -> ";"
+  n1731 -> n1749 // "Statement" -> "}"
+  n1721 -> n1750 // "IfStatement" -> "else"
+  n1721 -> n1751 // "IfStatement" -> "Statement"
+  n1751 -> n1752 // "Statement" -> "ntb"
+  n1751 -> n1753 // "Statement" -> "="
+  n1751 -> n1754 // "Statement" -> "Expression"
+  n1754 -> n1755 // "Expression" -> "true"
+  n1751 -> n1756 // "Statement" -> ";"
+  n1660 -> n1757 // "NormalFunction" -> "return"
+  n1660 -> n1758 // "NormalFunction" -> "Expression"
+  n1758 -> n1759 // "Expression" -> "true"
+  n1660 -> n1760 // "NormalFunction" -> ";"
+  n1660 -> n1761 // "NormalFunction" -> "}"
+  n312 -> n1762 // "Class" -> "}"
+
+}
