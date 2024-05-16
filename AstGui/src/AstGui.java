@@ -10,6 +10,7 @@ import java.util.logging.Logger;
 import javax.imageio.ImageIO;
 import javax.swing.ImageIcon;
 import javax.swing.JFileChooser;
+import javax.swing.UIManager;
 import org.antlr.runtime.ANTLRStringStream;
 import org.antlr.runtime.CommonTokenStream;
 import org.antlr.runtime.tree.CommonTree;
@@ -327,6 +328,7 @@ public class AstGui extends javax.swing.JFrame {
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         // TODO add your handling code here:
         try {
+            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
             JFileChooser jFileChooser1 = new JFileChooser();
             int choice = jFileChooser1.showOpenDialog(this);
             if (choice == JFileChooser.APPROVE_OPTION) {
